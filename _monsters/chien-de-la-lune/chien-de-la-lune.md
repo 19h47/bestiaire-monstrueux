@@ -70,4 +70,4 @@ Les chiens de la lune s'entendent bien avec les races d'alignement bon et neutre
 
 Les chiens de la lune communiquent souvent télépathiquement avec les hommes pour déterminer qui sont les fauteurs de trouble de telle ou telle communauté.
 
-![Chien de la lune](/chien-de-la-lune.jpg "Chien de la lune")
+![Chien de la lune]( {{ "chien-de-la-lune.jpg" | absolute_url }} "Chien de la lune")

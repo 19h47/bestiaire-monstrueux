@@ -53,4 +53,4 @@ Malgré leur apparence quelque peu ridicule et leur lubie pour des armes, ce son
 
 Ces créatures ont une espérance de vie d'environ 70 ans, mais le passage des ans n'est pas tendre avec elles. Au fur et à mesure qu'elles vieillissent et voient leurs réflexes diminuer, elles sont prises du désir de montrer qu'elles sont encore jeunes, le plus souvent au combat. Ce qui explique que très peu d'entre elles meurent de mort naturelle.
 
-![Giff](/giff.jpg "Giff")
+![Giff](giff.jpg "Giff")
