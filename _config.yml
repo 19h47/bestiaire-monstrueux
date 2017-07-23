@@ -22,7 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # Prod
 url: "https://19h47.github.io/"
-baseurl: "https://19h47.github.io/bestiaire-monstrueux" 
+baseurl: "/bestiaire-monstrueux" 
 
 # Dev
 # url: "http://127.0.0.1:4000/"
