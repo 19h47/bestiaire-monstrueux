@@ -136,4 +136,4 @@ Points d'expérience : 120
 Les chiens infernaux sont des molosses à deux têtes que leur double aboiement permet de repérer de loin. Ils chassent au sein de meutes importantes.  
 Chaque tête fonctionne indépendamment et sa morsure délivre 1d10 points de dégâts. De plus, les victimes doivent réussir un jet de sauvegarde contre le poison pour ne pas contracter une terrible infection qui pourrit leur organisme de l'intrieur et les tue en 4-24 jours (4d6). Seul un sort de _guérison des maladies_ peut alors les sauver. Lorsqu'un chien infernal obtient un résultat de 19 ou 20 à son jet d'attaque, il fait tomber son adversaire et ce dernier se bat à -4 pour toucher tant qu'il n'est pas parvenu à se remettre debout. Il y a 85 % de chances que les chiens infernaux se jettent sur des humains dès qu'ils les voient.
 
-![Chien]({{ monster.url | prepend: site.github.url }}chien.jpg "Chien")
+![Chien]({{ monster.url | prepend: site.github.url }}/chien.jpg "Chien")
