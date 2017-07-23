@@ -35,9 +35,9 @@ collections:
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
+plugins_dir:
   - jekyll-feed
+  - jekyll-assets
 exclude:
   - Gemfile
   - Gemfile.lock
