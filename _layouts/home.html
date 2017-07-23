@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1 class="page-heading">
+        Monstres
+    </h1>
+  
+    {{ content }}
+
+    <ul class="Monsters-list">
+        
+        {% for monster in site.monsters %}
+        
+        <li>
+            <h2>
+                <a class="Monsters-link" href="{{ monster.url | relative_url }}">
+                    {{ monster.title | escape }}
+                </a>
+            </h2>
+        </li>
+
+        {% endfor %}
+    
+    </ul>
+
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+</div>
