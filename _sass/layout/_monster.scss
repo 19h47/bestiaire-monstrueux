@@ -1,0 +1,12 @@
+/**
+ * Monster
+ *
+ * @uses .Monster
+ */
+.Monster {
+	
+	&-content {
+		column-count: 2;
+		column-gap: ( $base-line-height * 3 ) * 1px;
+	}
+}

@@ -1,34 +1,33 @@
 ---
 layout: monster
 title:  "Giff"
+
+details:
+  - { key: "Climat/Terrain", value: "Tous" }
+  - { key: "Fréquence", value: "Rare" }
+  - { key: "Organisation", value: "Section" }
+  - { key: "Cycle d'activité", value: "Diurne" }
+  - { key: "Régime alimentaire", value: "Omnivore" }
+  - { key: "Intelligence", value: "Faible (7)" }
+  - { key: "Trésor", value: "Aucun" }
+  - { key: "Alignement", value: "Loyal neutre" }
+
+characteristics:
+  - { key: "Nombre apparaissant :", value: "11-20" }
+  - { key: "Classe d'armure :", value: "6 (2)  " }
+  - { key: "Déplacement :", value: "6" }
+  - { key: "Dés de vie :", value: "4" }
+  - { key: "TAC0 :", value: "17" }
+  - { key: "Nombre d'attaques :", value: "2 ou 1" }
+  - { key: "Dégâts par attaque :", value: "1-6+7 ou selon l'arme employée +7" }
+  - { key: "Attaques spéciales :", value: "Coup de tête" }
+  - { key: "Défenses spéciales :", value: "Peut demander l'aide d'autres giffs" }
+  - { key: "Résitance à la magie :", value: "10 %" }
+  - { key: "Taille :", value: "G (2,70 m de haut)" }
+  - { key: "Moral :", value: "Élite (14)" }
+  - { key: "Points d'expérience :", value: "420" }
+
 ---
-
-## Giff
-    
-Climat/Terrain : Tous  
-Fréquence : Rare  
-Organisation : Section  
-Cycle d'activité : Diurne  
-Régime alimentaire : Omnivore  
-Intelligence : Faible (7)  
-Trésor : Aucun  
-Alignement : Loyal neutre  
-
----
-
-Nombre apparaissant : 11-20  
-Classe d'armure : 6 (2)    
-Déplacement : 6  
-Dés de vie : 4  
-TAC0 : 17  
-Nombre d'attaques : 2 ou 1  
-Dégâts par attaque : 1-6+7 ou selon l'arme employée +7  
-Attaques spéciales : Coup de tête  
-Défenses spéciales : Peut demander l'aide d'autres giffs  
-Résitance à la magie : 10 %  
-Taille : G (2,70 m de haut)  
-Moral : Élite (14)  
-Points d'expérience : 420
 
 Les giffs sont des créatures extrêmement musclées. Ils sont civilisés mais aucun n'utilise la magie. Présents dans l'univers connu, ils se font engager en tant que mercenaires, gardes du corps ou gorilles.  
 Un giff est un humaoïde doté de jambes courtaudes et cylindriques, d'un torse épais et de deux bras. Sa tête d'hippotame est protégée par une sorte de casque naturel constitué de plaques de chitine flexibles. Sa couleur de peau peut varier du noir au doré en passant par le gris, et nombre de ces créatures s'ornent le corps de multiples tatouages en souvenir de leurs victoires passées. Les giffs parlent leur propre langue et le commun.

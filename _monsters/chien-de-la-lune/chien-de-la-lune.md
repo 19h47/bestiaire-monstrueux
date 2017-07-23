@@ -1,44 +1,34 @@
 ---
+
 layout: monster
 title:  "Chien de la lune"
 
-climat-terrain: Les Élysées et le Plan Primaire
-frequence: Rare
-organisation: Solitaire ou petite meute (voir ci-dessous)  
-cycle-dactivite: Tous  
-regime-alimentaire: Carnivore  
-intelligence: De supérieure à exceptionnelle (13-16)  
-tresor: Aucun  
-alignement: Neutre 
+details:
+  - { key: "Climat/Terrain :", value: "Les Élysées et le Plan Primaire" }
+  - { key: "Fréquence :", value: "Rare" }
+  - { key: "Organisation :", value: "Solitaire ou petite meute (voir ci-dessous)" }
+  - { key: "Cycle d'activité :", value: "Tous" }
+  - { key: "Régime alimentaire :", value: "Carnivore" }
+  - { key: "Intelligence :", value: "De supérieure à exceptionnelle (13-16)" }
+  - { key: "Trésor :", value: "Aucun" }
+  - { key: "Alignement :", value: "Neutre" }
+
+characteristics:
+  - { key: "Nombre apparaissant :", value: "1 ou 2-8 (voir ci-dessous)" }
+  - { key: "Classe d'armure :", value: "0" }
+  - { key: "Déplacement :", value: "30, 9 sous sa forme bipède" }
+  - { key: "Dés de vi :e", value: "9+3" }
+  - { key: "TAC0 :", value: "11" }
+  - { key: "Nombre d'attaques :", value: "1" }
+  - { key: "Dégâts par attaque :", value: "3-12" }
+  - { key: "Attaques spéciales :", value: "Hurlement" }
+  - { key: "Défenses spéciales :", value: "Motif d'ombres hypnotiques, uniquement touché par les armes au moins +2" }
+  - { key: "Résitance à la magie&nbsp;:", value: "25 %" }
+  - { key: "Taille :", value: "M (90 cm au garrot)" }
+  - { key: "Moral :", value: "Fanatique (90 cm au garrot)" }
+  - { key: "Points d'expérience :", value: "9.000" }
 
 ---
-
-## Chien de la lune
-    
-Climat/Terrain : Les Élysées et le Plan Primaire  
-Fréquence : Rare  
-Organisation : Solitaire ou petite meute (voir ci-dessous)  
-Cycle d'activité : Tous  
-Régime alimentaire : Carnivore  
-Intelligence : De supérieure à exceptionnelle (13-16)  
-Trésor : Aucun  
-Alignement : Neutre  
-
----
-
-Nombre apparaissant : 1 ou 2-8 (voir ci-dessous)  
-Classe d'armure : 0    
-Déplacement : 30, 9 sous sa forme bipède  
-Dés de vie : 9+3  
-TAC0 : 11  
-Nombre d'attaques : 1  
-Dégâts par attaque : 3-12  
-Attaques spéciales : Hurlement  
-Défenses spéciales : Motif d'ombres hypnotiques, uniquement touché par les armes au moins +2  
-Résitance à la magie : 25 %  
-Taille : M (90 cm au garrot)  
-Moral : Fanatique (90 cm au garrot)  
-Points d'expérience : 9.000
 
 Les chiens de la lune, que l'on prend souvent pour de terribles monstres, sont en fait des champions de la cause de la loi natifs des Élysées. Lorsqu'ils viennent dans le Plan Primaire, c'est pour combattre le mal, quelle que soit la forme qu'il prenne.  
 Les chiens de la lune ressemblent à de gros chiens-loups. De forme étrange, leur tête semble vaguement humaine, ce qui leur donne un air très intelligent. Leurs pattes avant sont adaptables, ce qui leur permet de se déplacer à deux ou quatre pattes, comme ils le souhaitent. Leur fourrure est noire ou gros foncé et leur yeux ambrés.  

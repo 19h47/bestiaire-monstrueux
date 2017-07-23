@@ -97,7 +97,7 @@ $grid-columns: 12;
  * 
  * @see http://stackoverflow.com/a/28193872/5091221
  */
-$grid-gutter-width: 0;
+$grid-gutter-width: $base-line-height * 1px;
 
 
 /**
@@ -106,7 +106,7 @@ $grid-gutter-width: 0;
  * (Most of the time it's the size of a gutter divide by 2.)
  * Useful for the container.
  */
-$grid-outer-gutter-width-unitless: 6 * $base-line-height;
+$grid-outer-gutter-width-unitless: $base-line-height;
 $grid-outer-gutter-width: $grid-outer-gutter-width-unitless * 1px;
 
 

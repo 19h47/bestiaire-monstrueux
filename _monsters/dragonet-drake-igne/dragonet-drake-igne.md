@@ -3,28 +3,30 @@
 layout: monster
 title:  "Dragonet, drake igné"
 
-climat-terrain : Collines ou montagnes tempérées  
-frequence : Rare  
-organisation : Antre familial  
-cycle-dactivite : Diurne  
-regime-alimentaire : Carnivore  
-intelligence : Partielle (2-4)  
-tresor : Aucun  
-alignement : Neutre  
+details:
+  - { key: "Climat/Terrain :", value: "Collines ou montagnes tempérées" }
+  - { key: "fréquence :", value: "Rare" }
+  - { key: "Organisation :", value: "Antre familial" }
+  - { key: "Cycle d'activité :", value: "Diurne" }
+  - { key: "Régime alimentaire :", value: "Carnivore" }
+  - { key: "Intelligence :", value: "Partielle (2-4)" }
+  - { key: "Trésor :", value: "Aucun" }
+  - { key: "Alignement :", value: "Neutre" }
 
-nombre-apparaissant : 2-8  
-classe-darmure : 5  
-deplacement : 6, vl 18 (C)  
-des-de-vie : 4  
-tac0 : 17  
-nombre-dattaques : 1  
-degats-par-attaque : 2-8  
-attaques-speciales : Souffle et sorts  
-defenses-speciales : Aucune  
-resitance-a-la-magie : Aucune  
-taille : P (1,20 de long)  
-moral : Moyen (9)  
-points-dexperience : 420
+characteristics:
+  - { key: "Nombre apparaissant :", value: "2-8" }  
+  - { key: "Classe d'armure :", value: "5" }  
+  - { key: "Déplacement :", value: "6, vl 18 (C)" }  
+  - { key: "Dés de vie :", value: "4" }  
+  - { key: "TAC0 :", value: "17" }  
+  - { key: "Nombre d'attaques :", value: "1" }  
+  - { key: "Dégâts par attaque :", value: "2-8" }  
+  - { key: "Attaques spéciales :", value: "Souffle et sorts" }  
+  - { key: "Défenses spéciales :", value: "Aucune" }  
+  - { key: "Résitance à la magie&nbsp;:", value: "Aucune" }  
+  - { key: "Taille :", value: "P (1,20 de long)" }  
+  - { key: "Moral :", value: "Moyen (9)" }  
+  - { key: "Points d'expérience :", value: "420" }
 
 ---
 

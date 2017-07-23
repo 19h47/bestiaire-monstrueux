@@ -1,6 +1,32 @@
 ---
 layout: monster
 title:  "Chien"
+
+details:
+  - { key: "Climat/Terrain :", value: "Tous" }
+  - { key: "Fréquence :", value: "Commun" }
+  - { key: "Organisation :", value: "Meute" }
+  - { key: "Cycle d'activité :", value: "Tous" }
+  - { key: "Régime alimentaire :", value: "Omnivore" }
+  - { key: "Intelligence :", value: "Partielle (2-4)" }
+  - { key: "Trésor :", value: "Aucun" }
+  - { key: "Alignement :", value: "Neutre" }
+
+characteristics:
+  - { key: "Nombre apparaissant :", value: "4-16" }
+  - { key: "Classe d'armure :", value: "7  " }
+  - { key: "Déplacement :", value: "15" }
+  - { key: "Dés de vie :", value: "1+1" }
+  - { key: "TAC0 :", value: "19" }
+  - { key: "Nombre d'attaques :", value: "1" }
+  - { key: "Dégâts par attaque :", value: "1-4" }
+  - { key: "Attaques spéciales :", value: "Aucune" }
+  - { key: "Défenses spéciales :", value: "Aucune" }
+  - { key: "Résitance à la magie :", value: "Aucune" }
+  - { key: "Taille :", value: "P (90 cm de long)" }
+  - { key: "Moral :", value: "Agité (5-7)" }
+  - { key: "Points d'expérience :", value: "35" }
+  
 ---
     
 ### Chien sauvage
