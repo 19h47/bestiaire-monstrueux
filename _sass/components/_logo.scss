@@ -1,0 +1,7 @@
+/**
+ * Logo
+ */
+.Logo {
+	@extend %display-xs-inline-block, %valign-middle;
+	@include margin( top 9px bottom 9px );
+}

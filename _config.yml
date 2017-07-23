@@ -38,6 +38,10 @@ markdown: kramdown
 plugins_dir:
   - jekyll-feed
   - jekyll-assets
+
 exclude:
   - Gemfile
   - Gemfile.lock
+
+sass:
+    style: compressed

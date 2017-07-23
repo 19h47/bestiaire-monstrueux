@@ -1,6 +1,16 @@
 ---
 layout: monster
 title:  "Chien de la lune"
+
+climat-terrain: Les Élysées et le Plan Primaire
+frequence: Rare
+organisation: Solitaire ou petite meute (voir ci-dessous)  
+cycle-dactivite: Tous  
+regime-alimentaire: Carnivore  
+intelligence: De supérieure à exceptionnelle (13-16)  
+tresor: Aucun  
+alignement: Neutre 
+
 ---
 
 ## Chien de la lune

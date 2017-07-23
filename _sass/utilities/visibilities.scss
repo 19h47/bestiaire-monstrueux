@@ -1,0 +1,48 @@
+/**
+ * Visibilities
+ */
+@if ( $import-utilities-margins == true ) {
+
+    // If Slicer breakpoint is instanciate
+    @if ( $slicer-breakpoints-settings == true ) {
+
+        // Loop through each breakpoint
+        @each $breakpoint in $slicer-breakpoint-names {
+
+        	/**
+        	 * Hidden
+        	 */
+        	@include at( $breakpoint ) {
+				
+        		%hidden-#{ unquote( $breakpoint ) } {
+					display: none!important;
+        		}
+
+        		.hidden-#{ unquote( $breakpoint ) } {
+
+        			@extend %hidden-#{ unquote( $breakpoint ) };
+        		}
+        	}
+
+
+        	/**
+        	 * Visible
+        	 */
+        	@include at( $breakpoint ) {
+				
+        		%visible-#{ unquote( $breakpoint ) } {
+					
+					&-block {
+					    display: block !important;
+					}
+        		}
+
+        		.visible-#{ unquote( $breakpoint ) } {
+
+        			@extend %visible-#{ unquote( $breakpoint ) }-block;
+        		}
+
+        	}
+        }
+    }
+}

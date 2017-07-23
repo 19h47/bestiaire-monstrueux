@@ -1,5 +1,86 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "main";
+/**
+ * Main
+ *
+ * @see https://sass-guidelin.es/#the-7-1-pattern
+ */
+
+
+/**
+* Dependencies
+*/
+@import 'vendors/breakpoint/breakpoint';
+@import 'vendors/breakpoint-slicer/breakpoint-slicer';
+@import 'abstracts/variables';
+@import 'base/fonts';
+
+
+/**
+ * Vendors
+ */
+@import 
+	'vendors/ress',
+	'vendors/bootstrap-custom';
+
+
+
+/**
+ * Abstracts
+ */
+@import 
+	'abstracts/variables',
+	'abstracts/functions',
+	'abstracts/mixins',
+	'abstracts/placeholders',
+	'abstracts/animations';
+
+
+/**
+ * Base
+ */
+@import 
+	'base/base',
+	'base/fonts',
+	'base/typography';
+
+
+// /**
+//  * Layout
+//  */
+@import 
+	'layout/base';
+
+
+/**
+ * Pages
+ */
+@import 
+	'pages/page';
+
+
+// /**
+//  * Components
+//  */
+@import 
+	'components/link',
+	'components/logo',
+	'components/button',
+	'components/guid',
+	'components/tease-post',
+	'components/heading',
+	'components/slider',
+	'components/map';
+
+
+// /**
+//  * Utilities
+//  */
+@import 'Utilities/_settings';
+
+
+// /**
+//  * Shame
+//  */
+// @import 'shame';

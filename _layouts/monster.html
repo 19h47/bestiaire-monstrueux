@@ -2,15 +2,212 @@
 layout: page
 ---
 <article class="monster" itemscope itemtype="http://schema.org/BlogPosting">
+	
+	<div class="row">
+			
+		<div class="col-xs-12">
+			<header class="post-header">
+				<h1 class="color-blue-dark-moderate-02 post-title font-title" itemprop="name headline">{{ page.title | escape }}</h1>
+			</header>
+		</div>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
+		<!-- <img src="{{ thumbnail.url }}" alt="" /> -->
 
-  <img src="{{ thumbnail.url }}" alt="" />
+		<div class="row">
+			<div class="col-xs-3">
+				Climat/Terrain :
+			</div>
+			<div class="col-xs-3">
+				{{ page.climat-terrain }}
+			</div>
+		</div>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+		<div class="row">
+			<div class="col-xs-3">
+				Fréquence :
+			</div>
+			<div class="col-xs-3">
+				{{ page.climat-terrain }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Organisation :
+			</div>
+			<div class="col-xs-3">
+				{{ page.frequence }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Cycle d'activité :
+			</div>
+			<div class="col-xs-3">
+				{{ page.cycle-dactivite }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Régime alimentaire :
+			</div>
+			<div class="col-xs-3">
+				{{ page.regime-alimentaire }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Intelligence :
+			</div>
+			<div class="col-xs-3">
+				{{ page.intelligence }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Trésor :
+			</div>
+			<div class="col-xs-3">
+				{{ page.tresor }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Alignement :
+			</div>
+			<div class="col-xs-3">
+				{{ page.alignement }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Nombre apparaissant :
+			</div>
+			<div class="col-xs-3">
+				{{ page.nombre-apparaissant }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Classe d'armure :
+			</div>
+			<div class="col-xs-3">
+				{{ page.classe-darmure }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Déplacement :
+			</div>
+			<div class="col-xs-3">
+				{{ page.deplacement }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Dés de vie :
+			</div>
+			<div class="col-xs-3">
+				{{ page.des-de-vie }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				TAC0 :
+			</div>
+			<div class="col-xs-3">
+				{{ page.tac0 }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Nombre d'attaques :
+			</div>
+			<div class="col-xs-3">
+				{{ page.nombre-dattaques }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Dégâts par attaque :
+			</div>
+			<div class="col-xs-3">
+				{{ page.degats-par-attaque }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Attaques spéciales :
+			</div>
+			<div class="col-xs-3">
+				{{ page.attaques-speciales }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Défenses spéciales :
+			</div>
+			<div class="col-xs-3">
+				{{ page.defenses-speciales }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Résitance à la magie :
+			</div>
+			<div class="col-xs-3">
+				{{ page.resitance-a-la-magie }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Taille :
+			</div>
+			<div class="col-xs-3">
+				{{ page.taille }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Moral :
+			</div>
+			<div class="col-xs-3">
+				{{ page.moral }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				Points d'expérience
+			</div>
+			<div class="col-xs-3">
+				{{ page.points-dexperience }}
+			</div>
+		</div>
+
+	</div>
+
+	<div class="post-content test" itemprop="articleBody">
+		{{ content }}
+
+	</div>
+
 
 </article>

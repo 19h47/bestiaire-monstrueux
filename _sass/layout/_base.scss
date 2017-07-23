@@ -1,0 +1,30 @@
+/**
+ * Site
+ *
+ * @uses .Site
+ * @author Jérémy Levron <levronjeremy@19h47.fr>
+ */
+.Site {
+
+
+	/**
+	 * Container
+	 *
+	 * @uses .Site-container
+	 */
+	&-container {
+		// @extend %position-xs-relative;
+		@include padding( 
+			right $grid-outer-gutter-width
+			left $grid-outer-gutter-width
+		);
+		@include margin(
+			top 0
+			right auto
+			bottom 0
+			left auto
+		);
+		
+		max-width: $container-width;
+	}
+}

@@ -1,0 +1,147 @@
+/**
+ * Slider
+ *
+ * @uses .Page__slider
+ */
+.Slider {
+	@extend %margin-xs-0, %padding-xs-0;
+	
+
+	/**
+	 * Items
+	 */
+	&__items {
+		@extend %margin-xs-0, %padding-xs-0;
+		// @include margin( top 0 right auto bottom 0 left auto );
+		
+	}
+
+	/**
+	 * Item
+	 *
+	 * @uses .Page__slider__item
+	 */
+	&__item {
+		@extend %margin-xs-y-0;
+		@extend %Transition-ease;
+
+		opacity: 1;
+
+		&:not( .slick-center ) {
+			opacity: .4;
+		}
+	}
+
+	
+	/**
+	 * Dots
+	 *
+	 * @uses .Page__slider__dots
+	 */
+	&__dots {
+		@extend %padding-xs-0, %text-xs-center;
+		@include margin( top 40px bottom 40px );
+
+		li {
+			@extend %margin-xs-y-25;
+			@extend %Transition-ease;
+			@extend %display-xs-inline-block; 
+			@include size( 50px, 3px );
+			@include margin( right 10px left 10px );
+			
+			background: {
+				color: rgba( get_color( black ), .1 );
+			}
+			
+			&.slick-active,
+			&:hover {
+				background: {
+					color: rgba( get_color( black ), .2 );
+				}	
+			}
+			
+			button {
+				@extend %display-xs-block, %Reset-translateX;
+				@include size( 100%, 3px );
+
+
+			}
+
+
+			&.slick-active {
+				
+				button {
+
+					background: {
+						color: get_color( black );
+					}
+					animation: {
+						name: progress-bar;
+						// duration: 3600ms;
+						animation-timing-function: linear;
+					}
+					transform-origin: center left;
+				}
+			}
+		}
+	}
+
+	
+	/**
+	 * Navigation
+	 *
+	 * @uses .Page__slider__navigation
+	 */
+	&__navigation {
+		$size: 12px;
+
+		@include absolute( top 0 bottom 0 );
+
+		width: percentage( ( $container-width-unitless / 12 ) / $container-width-unitless );
+		background: {
+			color: get_color( white );
+		}
+
+		svg {
+			@extend %Transition-ease;
+
+			max-width: $size;
+			max-height: $size;
+		}
+
+
+		/**
+		 * Hover
+		 *
+		 * @uses .Page__slider__navigation:hover
+		 */
+		&:hover {
+			&.next svg {
+				transform: translate3d( ( $size / 2 ), 0, 0 );
+			}
+
+			&.previous svg {
+				transform: translate3d( ( ( $size / 2 ) * -1 ), 0, 0 );
+			}
+		}
+
+		/**
+		 * Previous button
+		 *
+		 * @uses .Page__slider__navigation.previous
+		 */
+		&.previous {
+			left: 0;
+		}
+
+
+		/**
+		 * Next button
+		 *
+		 * @uses .Page__slider__navigation.next
+		 */
+		&.next {
+			right: 0;
+		}
+	}
+}

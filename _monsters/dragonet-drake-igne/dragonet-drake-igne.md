@@ -1,34 +1,32 @@
 ---
+
 layout: monster
 title:  "Dragonet, drake igné"
+
+climat-terrain : Collines ou montagnes tempérées  
+frequence : Rare  
+organisation : Antre familial  
+cycle-dactivite : Diurne  
+regime-alimentaire : Carnivore  
+intelligence : Partielle (2-4)  
+tresor : Aucun  
+alignement : Neutre  
+
+nombre-apparaissant : 2-8  
+classe-darmure : 5  
+deplacement : 6, vl 18 (C)  
+des-de-vie : 4  
+tac0 : 17  
+nombre-dattaques : 1  
+degats-par-attaque : 2-8  
+attaques-speciales : Souffle et sorts  
+defenses-speciales : Aucune  
+resitance-a-la-magie : Aucune  
+taille : P (1,20 de long)  
+moral : Moyen (9)  
+points-dexperience : 420
+
 ---
-
-## Dragonet, drake igné
-    
-Climat/Terrain : Collines ou montagnes tempérées  
-Fréquence : Rare  
-Organisation : Antre familial  
-Cycle d'activité : Diurne  
-Régime alimentaire : Carnivore  
-Intelligence : Partielle (2-4)  
-Trésor : Aucun  
-Alignement : Neutre  
-
----
-
-Nombre apparaissant : 2-8  
-Classe d'armure : 5  
-Déplacement : 6, vl 18 (C)  
-Dés de vie : 4  
-TAC0 : 17  
-Nombre d'attaques : 1  
-Dégâts par attaque : 2-8  
-Attaques spéciales : Souffle et sorts  
-Défenses spéciales : Aucune  
-Résitance à la magie : Aucune  
-Taille : P (1,20 de long)  
-Moral : Moyen (9)  
-Points d'expérience : 420
 
 Bien qu'on le prenne souvent à première vue pour un dragon rouge en bas âge, le drake igné est nettement moins intelligent et moins puissant. Quel que soit le stimulus qu'il perçoive, sa réponse est toujours la même : l'attaque.  
 Ce petit dragonet long de 1,20 m et faisant un peu plus de 60 cm de haut ressemble tout à fait à un dragon rouge miniature, mais sa peau couverte d'écailles est moins épaisse et plus translucide que celle du plus jeune des dragons. De plus, elle frémit presque imperceptiblement en permance et est couverte de taches mauves ou violettes. Ses ailes battent lentement, même lorsqu'il reste sur terre ferme. C'est de cette manière que le drake igné se rafraîchit et qu'il écarte les insectes. La chaleur qu'il dégage trouble l'air autour de lui.

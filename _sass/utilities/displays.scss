@@ -1,0 +1,79 @@
+/**
+ * Display
+ */
+
+@if ( $import-utilities-displays == true ) {
+
+    /**
+     * Responsive utilities
+     */
+    @if ( $slicer-breakpoints-settings == true ) and ( $import-utilities-texts == true ) {
+
+        // For each breakpoint found in $slicer-breakpoint-names
+        @each $breakpoint in $slicer-breakpoint-names {
+
+            @include from( $breakpoint ) {
+                
+                @each $display-value in $display-values {
+
+                    %display-#{ $breakpoint }-#{ unquote( $display-value ) } {
+                        
+                        display: #{ unquote( $display-value ) };
+
+                        @if $display-value == 'table-cell' {
+                            
+                            &.vertical-align-middle {
+
+                                vertical-align: middle;
+                            }
+
+                            &.vertical-align-bottom {
+                                
+                                vertical-align: bottom;
+                            }
+                        }
+                    }
+                    
+                    .display-#{ $breakpoint }-#{ unquote( $display-value ) } {
+                        
+                       @extend %display-#{ $breakpoint }-#{ unquote( $display-value ) };
+                    }
+                }
+            }
+        
+        }
+
+        // Flex
+        .columns {
+            display: flex;
+            
+            &.is-top {
+                align-items: flex-start;     
+            }
+            &.is-centered {
+                align-items: center;     
+            }
+            &.is-bottom {
+                align-items: flex-end;     
+            }
+        }
+
+
+        .column {
+            display: block;
+            flex: {
+                basis: 0;
+                grow: 1;
+                shrink: 1;
+            }
+            
+            @include from( 'md' ) {
+                
+                &.is-half {
+                    flex: none;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
