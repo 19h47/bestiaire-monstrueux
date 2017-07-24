@@ -1,0 +1,29 @@
+{
+	"chien-de-lune":{
+		"details":{
+			"Climat/Terrain :": "Les Élysées et le Plan Primaire",
+			"Fréquence :": "Rare",
+			"Organisation :": "Solitaire ou petite meute (voir ci-dessous)",
+			"Cycle d'activité :": "Tous",
+			"Régime alimentaire :": "Carnivore",
+			"Intelligence :": "De supérieure à exceptionnelle (13-16)",
+			"Trésor :": "Aucun",
+			"Alignement :": "Neutre"
+		},
+		"characteristics":{
+			"Nombre apparaissant :": "1 ou 2-8 (voir ci-dessous)",
+			"Classe d'armure :": "0",
+			"Déplacement :": "30, 9 sous sa forme bipède",
+			"Dés de vie :": "9+3",
+			"TAC0 :": "11",
+			"Nombre d'attaques :": "1",
+			"Dégâts par attaque :": "3-12",
+			"Attaques spéciales :": "Hurlement",
+			"Défenses spéciales :": "Motif d'ombres hypnotiques, uniquement touché par les armes au moins +2",
+			"Résitance à la magie :": "25 %",
+			"Taille :": "M (90 cm au garrot)",
+			"Moral :": "Fanatique (90 cm au garrot)",
+			"Points d'expérience :": "9.000"
+		}
+	}
+}
