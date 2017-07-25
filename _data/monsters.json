@@ -1,29 +1,198 @@
 {
-	"chien-de-lune":{
+	"chien-de-la-lune":{
 		"details":{
-			"Climat/Terrain :": "Les Élysées et le Plan Primaire",
-			"Fréquence :": "Rare",
-			"Organisation :": "Solitaire ou petite meute (voir ci-dessous)",
-			"Cycle d'activité :": "Tous",
-			"Régime alimentaire :": "Carnivore",
-			"Intelligence :": "De supérieure à exceptionnelle (13-16)",
-			"Trésor :": "Aucun",
-			"Alignement :": "Neutre"
+			"Climat/Terrain": "Les Élysées et le Plan Primaire",
+			"Fréquence": "Rare",
+			"Organisation": "Solitaire ou petite meute (voir ci-dessous)",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "De supérieure à exceptionnelle (13-16)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
 		},
 		"characteristics":{
-			"Nombre apparaissant :": "1 ou 2-8 (voir ci-dessous)",
-			"Classe d'armure :": "0",
-			"Déplacement :": "30, 9 sous sa forme bipède",
-			"Dés de vie :": "9+3",
-			"TAC0 :": "11",
-			"Nombre d'attaques :": "1",
-			"Dégâts par attaque :": "3-12",
-			"Attaques spéciales :": "Hurlement",
-			"Défenses spéciales :": "Motif d'ombres hypnotiques, uniquement touché par les armes au moins +2",
-			"Résitance à la magie :": "25 %",
-			"Taille :": "M (90 cm au garrot)",
-			"Moral :": "Fanatique (90 cm au garrot)",
-			"Points d'expérience :": "9.000"
+			"Nombre apparaissant": "1 ou 2-8 (voir ci-dessous)",
+			"Classe d'armure": "0",
+			"Déplacement": "30, 9 sous sa forme bipède",
+			"Dés de vie": "9+3",
+			"TAC0": "11",
+			"Nombre d'attaques": "1",
+			"Dégâts par attaque": "3-12",
+			"Attaques spéciales": "Hurlement",
+			"Défenses spéciales": "Motif d'ombres hypnotiques, uniquement touché par les armes au moins +2",
+			"Résitance à la magie": "25 %",
+			"Taille": "M (90 cm au garrot)",
+			"Moral": "Fanatique (90 cm au garrot)",
+			"Points d'expérience": "9.000"
+		}
+	},
+
+	"dragonet-drake-igne":{
+		"details":{
+		  	"Climat/Terrain": "Collines ou montagnes tempérées",
+		  	"fréquence": "Rare",
+		  	"Organisation": "Antre familial",
+		  	"Cycle d'activité": "Diurne",
+		  	"Régime alimentaire": "Carnivore",
+		  	"Intelligence": "Partielle (2-4)",
+		  	"Trésor": "Aucun",
+		  	"Alignement": "Neutre"
+		},
+		"characteristics":{
+		 	"Nombre apparaissant": "2-8",  
+		 	"Classe d'armure": "5",  
+		 	"Déplacement": "6, vl 18 (C)",  
+		 	"Dés de vie": "4",  
+		 	"TAC0": "17",  
+		 	"Nombre d'attaques": "1",  
+		 	"Dégâts par attaque": "2-8",  
+		 	"Attaques spéciales": "Souffle et sorts",  
+		 	"Défenses spéciales": "Aucune",  
+		 	"Résitance à la magie&nbsp;:": "Aucune",  
+		 	"Taille": "P (1,20 de long)",  
+		 	"Moral": "Moyen (9)",  
+		 	"Points d'expérience": "420"
+		}
+	},
+
+	"giff": {
+		"details":{
+			"Climat/Terrain": "Tous",
+			"Fréquence": "Rare",
+			"Organisation": "Section",
+			"Cycle d'activité": "Diurne",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "Faible (7)",
+			"Trésor": "Aucun",
+			"Alignement": "Loyal neutre"
+		},
+		"characteristics":{
+			"Nombre apparaissant": "11-20",
+			"Classe d'armure": "6 (2)  ",
+			"Déplacement": "6",
+			"Dés de vie": "4",
+			"TAC0": "17",
+			"Nombre d'attaques": "2 ou 1",
+			"Dégâts par attaque": "1-6+7 ou selon l'arme employée +7",
+			"Attaques spéciales": "Coup de tête",
+			"Défenses spéciales": "Peut demander l'aide d'autres giffs",
+			"Résitance à la magie": "10 %",
+			"Taille": "G (2,70 m de haut)",
+			"Moral": "Élite (14)",
+			"Points d'expérience": "420"
+		}
+	},
+
+	
+	"chien-sauvage": {
+		"details": {
+			"Climat/Terrain": "Tous",
+			"Fréquence": "Commun",
+			"Organisation": "Meute",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "Partielle (2-4)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
+		},
+		"characteristics":{
+			"Nombre apparaissant": "4-16",
+			"Classe d'armure": "7",
+			"Déplacement": "15",
+			"Dés de vie": "1+1",
+			"TAC0": "19",
+			"Nombre d'attaques": "1",
+			"Dégâts par attaque": "1-4",
+			"Attaques spéciales": "Aucune",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",
+			"Taille": "P (90 cm de long)",
+			"Moral": "Agité (5-7)",
+			"Points d'expérience": "35"
+		}
+	},
+
+	"chien-de-guerre": {
+		"details": {
+			"Climat/Terrain": "Tous",
+			"Fréquence": "Peu commun",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "Partielle (2-4)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "Variable",
+			"Classe d'armure": "6",
+			"Déplacement": "12",
+			"Dés de vie": "2+2",
+			"TAC0": "19",
+			"Nombre d'attaques": "1",
+			"Dégâts par attaque": "2-8",
+			"Attaques spéciales": "Aucune",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",
+			"Taille": "M (1,20 à 1,80 de long)",
+			"Moral": "Moyen (8-10)",
+			"Points d'expérience": "65"
+		}
+	},
+
+	"chien-esquiveur": {
+		"details": {
+			"Climat/Terrain": "Plaines tempérées",
+			"Fréquence": "Rare",
+			"Organisation": "Meute",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "Moyenne (8-10)",
+			"Trésor": "(C)",
+			"Alignement": "Loyal bon"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "4-16",
+			"Classe d'armure": "5",
+			"Déplacement": "12",
+			"Dés de vie": "4",
+			"TAC0": "17",
+			"Nombre d'attaques": "1",
+			"Dégâts par attaque": "1-6",
+			"Attaques spéciales": "Attaque par-derrière dans 75% des cas",
+			"Défenses spéciales": "Téléportation",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "M (1,20 de long)",
+			"Moral": "Stable (11-12)",
+			"Points d'expérience": "270"
+		}
+	},
+
+	"chien-infernal": {
+		"details": {
+			"Climat/Terrain": "Déserts chauds et souterrains",
+			"Fréquence": "Très rare",
+			"Organisation": "Meute",
+			"Cycle d'activité": "Nocturne",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "Partielle (2-4)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre mauvais"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "5-50",
+			"Classe d'armure": "7",
+			"Déplacement": "12",
+			"Dés de vie": "2+", 
+			"TAC0": "19",
+			"Nombre d'attaques": "12",
+			"Dégâts par attaque": "1-10/1-10",
+			"Attaques spéciales": "Maladie",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "M (1,80 de long)",
+			"Moral": "Stable (11-12)",
+			"Points d'expérience": "120"
 		}
 	}
 }

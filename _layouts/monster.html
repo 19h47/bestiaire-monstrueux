@@ -1,6 +1,32 @@
 ---
+
 layout: page
+
 ---
+
+{% if page.monsters %}
+	
+	{% for monster in page.monsters %}
+		
+		{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' %}
+		{{ slug }}
+		{% assign details = site.data.monsters[slug].details %}
+		{% assign characteristics = site.data.monsters[slug].characteristics %}
+		
+		<h3>{{ monster }}</h3>
+
+		{% include loop.html datas=details %}
+		{% include loop.html datas=characteristics %}
+
+
+		
+	{% endfor %}
+
+{% endif %}
+
+
+
+
 <article class="Site-container monster" itemscope itemtype="http://schema.org/BlogPosting">
 	
 	<div class="row">

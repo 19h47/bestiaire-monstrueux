@@ -1,31 +1,7 @@
 ---
+
 layout: monster
 title:  "Giff"
-
-details:
-  - { key: "Climat/Terrain", value: "Tous" }
-  - { key: "Fréquence", value: "Rare" }
-  - { key: "Organisation", value: "Section" }
-  - { key: "Cycle d'activité", value: "Diurne" }
-  - { key: "Régime alimentaire", value: "Omnivore" }
-  - { key: "Intelligence", value: "Faible (7)" }
-  - { key: "Trésor", value: "Aucun" }
-  - { key: "Alignement", value: "Loyal neutre" }
-
-characteristics:
-  - { key: "Nombre apparaissant :", value: "11-20" }
-  - { key: "Classe d'armure :", value: "6 (2)  " }
-  - { key: "Déplacement :", value: "6" }
-  - { key: "Dés de vie :", value: "4" }
-  - { key: "TAC0 :", value: "17" }
-  - { key: "Nombre d'attaques :", value: "2 ou 1" }
-  - { key: "Dégâts par attaque :", value: "1-6+7 ou selon l'arme employée +7" }
-  - { key: "Attaques spéciales :", value: "Coup de tête" }
-  - { key: "Défenses spéciales :", value: "Peut demander l'aide d'autres giffs" }
-  - { key: "Résitance à la magie :", value: "10 %" }
-  - { key: "Taille :", value: "G (2,70 m de haut)" }
-  - { key: "Moral :", value: "Élite (14)" }
-  - { key: "Points d'expérience :", value: "420" }
 
 ---
 
