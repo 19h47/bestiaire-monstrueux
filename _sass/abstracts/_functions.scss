@@ -3,26 +3,50 @@
 // -----------------------------------------------------------------------------
 
 /**
- * Get color
+ * Get the color
  *
- * Retrieve color from $color-variations map
+ * Get color from $color-variations map, inspired by WordPress and its the_title/get_the_title functions.
+ * 
+ * Thanks to Hugo Giraudel, as usual, master of Sass. 😊
  *
  * @access  public
- * @author Levron Jérémy <levronjeremy@19h47.fr>
+ * @author  Jérémy Levron <levronjeremy@19h47.fr>
  */
-@function get_color( $color-name, $color-variant: null ) {
+@function get_the_color( $keys... ) { 
     
-    // Color variant is optional
-    @if ( $color-variant != null ) {
-      
-        // map inception
-        @return map-get( map-get( $color-variations, $color-name ), $color-variant );
+    $map: $color-variations;
+    $color-base: map-get( $map, nth( $keys, 1 ) );
+    $result: null;
+
+    @if length( $keys ) == 1 {
+
+        $result: $color-base;
     }
 
-    @else {
+    @if length( $keys ) == 2 {
 
-        @return map-get($color-variations, $color-name );
+        $color-key: nth( $keys, 1 );
+        $color-value: nth( $keys, 2 );
+
+        $result: map-get( $color-base, $color-value );
     }
+    
+
+    @return $result;
+}
+
+
+/**
+ * The color
+ * 
+ * Retrieve the color from $color-variations map
+ *
+ * @param  arglist      $keys
+ * @return function     get_the_color()
+ * @author Jérémy Levron<levronjeremy@19h47.fr>
+ */
+@function the_color( $keys... ) {
+    @return get_the_color( $keys... );
 }
 
 

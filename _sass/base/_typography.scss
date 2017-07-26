@@ -4,7 +4,7 @@
 
 html {
 	font: {
-		size:62.5%
+		size: 62.5%;
 	}
 }
 
@@ -128,15 +128,3 @@ $titles: (
             
     }
 };
-
-@include to( 'sm' ) {
-    h1, .h1 {
-        font-size: 3rem;
-    }
-
-    h2, .h2, 
-    h3, .h3, 
-    h4, .h4 {
-        font-size: 2rem;
-    }
-}

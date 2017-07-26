@@ -6,7 +6,7 @@
  * @param   {Length}    $height [$width] - Element’s `height`
  * @author Hugo Giraudel
  */
-@mixin size($width, $height: $width) {
+@mixin size( $width, $height: $width ) {
     width: $width;
     height: $height;
 }
@@ -255,9 +255,9 @@
                 @each $property-key, $property-value in $properties {
 
                     // each item in sub map
-                    #{ unquote( $property-value ) }-#{ $key }-#{ $subname } {
+                    #{ "" + unquote( $property-value ) }-#{ "" + $key }-#{ "" + $subname } {
 
-                        #{ $property-key }: $subvalue;
+                        #{"" + $property-key }: $subvalue;
                     }
                 }
             }
@@ -265,9 +265,9 @@
 
             @each $property-key, $property-value in $properties {
 
-                #{ unquote( $property-value ) }-#{ $key } {
+                #{ "" + unquote( $property-value ) }-#{ "" + $key } {
 
-                    #{ $property-key }: $value;
+                    #{"" + $property-key }: $value;
                 }
             }
         } 

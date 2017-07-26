@@ -4,12 +4,27 @@ layout: page
 
 ---
 
-{% if page.monsters %}
+<article class="Site-container Monster {{ page.title | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | prepend: 'Monster--' }}">
+
+	<header class="Monster-header">
+		<h1 class="Monster-title">
+			{{ page.title | append: '™' }}
+		</h1>
+	</header>
 	
-	{% for monster in page.monsters %}
+
+	<!-- Subheader -->
+	<div class="Monster-subheader"></div>
+	
+
+	<!-- Content -->
+	<div class="Monster-content">
+		{{ content }}
+	</div>
+	
+<!-- 	{% for monster in page.monsters %}
 		
 		{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' %}
-		{{ slug }}
 		{% assign details = site.data.monsters[slug].details %}
 		{% assign characteristics = site.data.monsters[slug].characteristics %}
 		
@@ -20,59 +35,22 @@ layout: page
 
 
 		
-	{% endfor %}
+	{% endfor %} -->
 
-{% endif %}
-
-
-
-
-<article class="Site-container monster" itemscope itemtype="http://schema.org/BlogPosting">
-	
-	<div class="row">
+<!-- 	<div class="row">
+		
 			
 		<div class="col-xs-12">
 			<header class="post-header">
-				<h1 class="color-blue-dark-moderate-02 post-title font-title" itemprop="name headline">{{ page.title | escape }}</h1>
+				<h1 class="color-blue-dark-moderate-02 post-title font-title">
+					{{ page.title | escape }}
+				</h1>
 			</header>
 		</div>
-	</div>
-
-	<img 
-		src="{{ page.image.url }}" 
-		alt="{{ page.image.alt }}" 
-		title="{{ page.image.title }}" 
-		width="{{ page.image.width }}"
-		height="{{ page.image.height }}"
-	/>
+	</div> -->
 	
-	{% for detail in page.details %}
-		<div class="row">
-			<div class="col-xs-3">
-				{{ detail.key }}
-			</div>
-			<div class="col-xs-3">
-				{{ detail.value }}
-			</div>
-		</div>			
-	{% endfor %}
 
-
-	{% for characteristic in page.characteristics %}
-		<div class="row">
-			<div class="col-xs-3">
-				{{ characteristic.key }}
-			</div>
-			<div class="col-xs-3">
-				{{ characteristic.value }}
-			</div>
-		</div>	
-	{% endfor %}
-
-	<div class="Monster-content" itemprop="articleBody">
-		{{ content }}
-
-	</div>
+	
 
 
 </article>

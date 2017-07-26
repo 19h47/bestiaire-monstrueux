@@ -36,7 +36,7 @@ collections:
 # Build settings
 markdown: kramdown
 plugins_dir:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-assets
 
 exclude:

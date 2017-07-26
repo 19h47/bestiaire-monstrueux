@@ -4,9 +4,82 @@
  * @uses .Monster
  */
 .Monster {
+	@include margin( 
+		top ( ( 152 / $base-font-size ) * 1em ) 
+		bottom ( ( 152 / $base-font-size ) * 1em )
+	);
+	@mixin pseudo-element-after( $height, $color: the_color( black ) ) {
+		&::after {
+			@extend %display-xs-block;
+			@include absolute( 
+				top calc( 100% - #{ ( $height / 2 ) * 1px } )
+				right 0
+				left 0
+			);
+			
+			height: ( $height * 1px );
+			background: {
+				color: $color;
+			}
+			content: '';
+		}
+	}
 	
+	&-header {
+		@extend %position-xs-relative;
+		@include pseudo-element-after( 8 );
+
+	}
+
+	&-subheader {
+		@extend %position-xs-relative;
+
+		height: ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em );
+		
+		@include pseudo-element-after( 24, the_color( blue, dark-moderate-02 ) );
+	}
+	
+	/**
+	 * 
+	 */
 	&-content {
+		@include margin( 
+			top ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em ) 
+		);
+		text-align: justify;
+	    text-justify: inter-word;
 		column-count: 2;
-		column-gap: ( $base-line-height * 3 ) * 1px;
+		column-gap: ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em );
+		font-kerning: normal;
+
+		.heading {
+			color: the_color( blue, dark-moderate-01 );
+			font: {
+				weight: map-get( $font-weight, bold );
+			}
+			
+		}
+		
+		p {
+			text: {
+				indent: 1em;
+			}
+
+			&:first-child {
+				@include margin( top 0 );
+			}
+		}
+
+		img {
+			@extend .img-full;
+			@extend %display-xs-block;
+		}
+
+	}
+
+	&-title {
+		@extend .color-blue-dark-moderate-02;
+
+		@include margin( top 0 bottom 0 );
 	}
 }
