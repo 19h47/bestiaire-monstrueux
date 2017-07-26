@@ -8,16 +8,17 @@
 		top ( ( 152 / $base-font-size ) * 1em ) 
 		bottom ( ( 152 / $base-font-size ) * 1em )
 	);
+
 	@mixin pseudo-element-after( $height, $color: the_color( black ) ) {
 		&::after {
 			@extend %display-xs-block;
 			@include absolute( 
-				top calc( 100% - #{ ( $height / 2 ) * 1px } )
+				top calc( 100% - #{ ( ( ( $height / $base-font-size ) / 2 ) * 1em ) } )
 				right 0
 				left 0
 			);
 			
-			height: ( $height * 1px );
+			height: ( ( $height / $base-font-size ) * 1em );
 			background: {
 				color: $color;
 			}
@@ -25,29 +26,49 @@
 		}
 	}
 	
+
+	/**
+	 * Header
+	 *
+	 * @uses .Monster-header
+	 */
 	&-header {
 		@extend %position-xs-relative;
 		@include pseudo-element-after( 8 );
 
-	}
+		@include padding( bottom ( $base-line-height * 1px ) );
 
+	}
+	
+
+	/**
+	 * Subheader
+	 *
+	 * @uses .Monster-subheader
+	 */
 	&-subheader {
 		@extend %position-xs-relative;
 
 		height: ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em );
 		
-		@include pseudo-element-after( 24, the_color( blue, dark-moderate-02 ) );
+		@include pseudo-element-after( 
+			24, 
+			the_color( blue, dark-moderate-02 ) 
+		);
 	}
 	
+
 	/**
-	 * 
+	 * Content
+	 *
+	 * @uses .Monster-content
 	 */
 	&-content {
 		@include margin( 
 			top ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em ) 
 		);
 		text-align: justify;
-	    text-justify: inter-word;
+
 		column-count: 2;
 		column-gap: ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em );
 		font-kerning: normal;
@@ -57,7 +78,6 @@
 			font: {
 				weight: map-get( $font-weight, bold );
 			}
-			
 		}
 		
 		p {
@@ -75,8 +95,36 @@
 			@extend %display-xs-block;
 		}
 
-	}
+		h3 {
+			@include margin( 
+				top ( $base-line-height * 1px )
+				bottom 0 
+			);
 
+			color: the_color( blue, dark-moderate-01 );
+			font: {
+				size: ( ( 47 / $base-font-size ) * 1em );
+			}
+			line-height: ( $base-line-height * 2px );
+
+			+ p {
+				@include margin( top 0 );
+			}
+		}
+
+		*:first-child {
+			@include margin( top 0 );
+		}
+
+
+	}
+	
+
+	/**
+	 * Title
+	 *
+	 * @uses .Monster-title
+	 */
 	&-title {
 		@extend .color-blue-dark-moderate-02;
 

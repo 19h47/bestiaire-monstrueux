@@ -85,33 +85,33 @@
      * @param list $lines-height
      * @author Levron Jérémy
      */
-    @each $line-height in $lines-height {
+    // @each $line-height in $lines-height {
 
-        /**
-         * Line height (declare in em)
-         */
-        %line-height-#{ $line-height } {
-            line-height: ( ( $line-height / $base-font-size ) * 1em );
-        }
+    //     /**
+    //      * Line height (declare in em)
+    //      */
+    //     %line-height-#{ $line-height } {
+    //         line-height: ( ( $line-height / $base-font-size ) * 1em );
+    //     }
 
-        .line-height-#{ $line-height } {
-            @extend %line-height-#{ $line-height };
-        }
+    //     .line-height-#{ $line-height } {
+    //         @extend %line-height-#{ $line-height };
+    //     }
         
 
-        /**
-         * Line height (declare in px)
-         *
-         * @uses @extend %line-height
-         */
-        %line-height-#{ $line-height }px {
-            line-height: ( $line-height * 1px );
-        }
+    //     /**
+    //      * Line height (declare in px)
+    //      *
+    //      * @uses @extend %line-height
+    //      */
+    //     %line-height-#{ $line-height }px {
+    //         line-height: ( $line-height * 1px );
+    //     }
 
-        .line-height-#{ $line-height }px {
-            @extend %line-height-#{ $line-height }px;
-        }
-    }
+    //     .line-height-#{ $line-height }px {
+    //         @extend %line-height-#{ $line-height }px;
+    //     }
+    // }
 
 
     /**

@@ -19,7 +19,7 @@ body {
         weight: map-get( $font-weight, regular );
     }
     line-height: ( ( $base-line-height / $base-font-size ) * 1em );
-    // text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -38,8 +38,8 @@ body {
  */
 $titles: (
     h1: (
-        84, 
-        114,
+        88, 
+        $base-line-height * 3,
         map-get( $font-weight, bold ), 
         map-get( $font, title-family ),
         0 
@@ -116,7 +116,7 @@ $titles: (
 
         font: {
             family: $family;
-            size: ( $font-size / 10 ) * 1rem;
+            size: ( ( $font-size / $base-font-size ) * 1em );
             weight: $weight;
         }
         line-height: $line-height / $font-size; 

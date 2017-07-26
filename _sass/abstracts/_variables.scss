@@ -61,7 +61,7 @@ $font: (
  */
 $base-font-size: 34;
 $base-font-size-px: $base-font-size * 1px;
-$base-line-height: 38;
+$base-line-height: round( $base-font-size * 1.13 );
 
 
 /**

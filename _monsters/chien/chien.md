@@ -10,17 +10,11 @@ monsters: [ Chien sauvage, Chien de guerre, Chien esquiveur, Chien infernal ]
 
 Plus petit que les loups, les chiens sauvages ont une apparence variables d'une région à l'autre. La plupart ressemblent à des loups, mais certains ont l'air de croisements entre des chacals et des loups.
 
-#### Combat :
+<span class="heading">Combat :</span> les chiens sauvages combattent en meute te de manière organisée. Ils préfèrent le gibier de petite taille et ne s'en prennent aux habitations humaines que lorsqu'ils ne trouvent vraiment rien à manger. Leur morsure délivre 1d4 points de dégats.
 
-Les chiens sauvages combattent en meute te de manière organisée. Ils préfèrent le gibier de petite taille et ne s'en prennent aux habitations humaines que lorsqu'ils ne trouvent vraiment rien à manger. Leur morsure délivre 1d4 points de dégats.
+<span class="heading">Habitat/société :</span> on trouve ces animaux presque partout. Ils se déplacent en meutes, lesquelles sont dirigées par le plus fort des mâles. Les proies qu'ils se choississent sont souvent très variées et peuvent parfois aller jusqu'à l'antilope ou au daim. Les chiots naissent au printemps. Il est possible de dresser un chien sauvage après l'avir arraché à sa meute.
 
-#### Habitat/société :
-
-On trouve ces animaux presque partout. Ils se déplacent en meutes, lesquelles sont dirigées par le plus fort des mâles. Les proies qu'ils se choississent sont souvent très variées et peuvent parfois aller jusqu'à l'antilope ou au daim. Les chiots naissent au printemps. Il est possible de dresser un chien sauvage après l'avir arraché à sa meute.
-
-#### Écologie :
-
-Les chiens sauvages sont des omnivores qui mangent des baies sauvages et des racines en plus des proies qu'ils chassent.
+<span class="heading">Écologie :</span> les chiens sauvages sont des omnivores qui mangent des baies sauvages et des racines en plus des proies qu'ils chassent.
 
 ### Chien de guerre
 
