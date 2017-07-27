@@ -16,26 +16,34 @@ layout: page
 	<!-- Subheader -->
 	<div class="Monster-subheader"></div>
 	
+	
+	<div class="Monster-description">
+		
+		<div class="Monster-description__inner">
+			{% for monster in page.monsters %}
+				
+				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' %}
+				{% assign details = site.data.monsters[slug].details %}
+				{% assign characteristics = site.data.monsters[slug].characteristics %}
+
+				{% include loop.html datas=details %}
+				{% include loop.html datas=characteristics %}
+
+			{% endfor %}
+		</div><!--
+		
+		
+	 --><div class="Monster-description__inner">
+			<img class="Monster-image" src="{{ page.image | absolute_url }}" alt="{{ page.title }}">
+		</div>
+	
+		
+	</div>
 
 	<!-- Content -->
 	<div class="Monster-content">
 		{{ content }}
 	</div>
-	
-<!-- 	{% for monster in page.monsters %}
-		
-		{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' %}
-		{% assign details = site.data.monsters[slug].details %}
-		{% assign characteristics = site.data.monsters[slug].characteristics %}
-		
-		<h3>{{ monster }}</h3>
-
-		{% include loop.html datas=details %}
-		{% include loop.html datas=characteristics %}
-
-
-		
-	{% endfor %} -->
 
 <!-- 	<div class="row">
 		

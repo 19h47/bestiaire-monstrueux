@@ -5,8 +5,8 @@
  */
 .Monster {
 	@include margin( 
-		top ( ( 152 / $base-font-size ) * 1em ) 
-		bottom ( ( 152 / $base-font-size ) * 1em )
+		top ( ( ( $base-line-height * 4 ) / $base-font-size ) * 1em ) 
+		bottom ( ( ( $base-line-height * 4 ) / $base-font-size ) * 1em )
 	);
 
 	@mixin pseudo-element-after( $height, $color: the_color( black ) ) {
@@ -36,7 +36,9 @@
 		@extend %position-xs-relative;
 		@include pseudo-element-after( 8 );
 
-		@include padding( bottom ( $base-line-height * 1px ) );
+		@include padding( bottom 
+			( ( $base-line-height / $base-font-size ) * 1em )
+		);
 
 	}
 	
@@ -56,6 +58,41 @@
 			the_color( blue, dark-moderate-02 ) 
 		);
 	}
+
+
+	/**
+	 * Description
+	 *
+	 * @uses .Monster-description
+	 */
+	&-description {
+		@include margin( 
+			top ( ( $base-line-height / $base-font-size ) * 1em ) 
+		);
+
+		&__inner {
+			$padding: ( ( ( $base-line-height * 3 ) / 2 ) / $base-font-size ) * 1em;
+
+			@extend %display-xs-inline-block, %valign-top;
+			width: 50%;
+
+			& *:first-child {
+				@include margin( top 0 );
+			}
+
+			&:nth-child( 1 ) {
+				@include padding( 
+					right $padding
+				);
+			}
+
+			&:nth-child( 2 ) {
+				@include padding( 
+					left $padding
+				);
+			}
+		}
+	}
 	
 
 	/**
@@ -65,7 +102,7 @@
 	 */
 	&-content {
 		@include margin( 
-			top ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em ) 
+			top ( ( $base-line-height / $base-font-size ) * 1em ) 
 		);
 		text-align: justify;
 
@@ -81,6 +118,7 @@
 		}
 		
 		p {
+			color: the_color( black );
 			text: {
 				indent: 1em;
 			}
@@ -112,6 +150,12 @@
 			}
 		}
 
+		ul {
+			li {
+				@extend %margin-xs-0;
+			}
+		}
+
 		*:first-child {
 			@include margin( top 0 );
 		}
@@ -129,5 +173,15 @@
 		@extend .color-blue-dark-moderate-02;
 
 		@include margin( top 0 bottom 0 );
+	}
+
+
+	/**
+	 * Image
+	 */
+	&-image {
+		@extend %display-xs-inline-block, %valign-middle;
+		width: 100%;
+		height: auto;
 	}
 }

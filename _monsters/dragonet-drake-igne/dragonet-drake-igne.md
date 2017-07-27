@@ -3,6 +3,7 @@
 layout: monster
 title:  Dragonet, drake igné
 monsters: [ 'Dragonet, drake igné' ]
+image: "dragonet-drake-igne.jpg"
 
 ---
 
@@ -21,5 +22,3 @@ Ces créatures n'ont que faire des richesses, et les ossements et effets de leur
 <span class="heading">Écologie :</span> les drakes ignés ont une durée de vie réduite à côté de leurs cousins dragons ; ils ne vivent en effet qu'entre 75 et 100 ans.  
 Il est possible de conserver leur sang (dans son état liquide) dans un récipient étanche ou en le recouvrant d'eau ou de tout autre liquide inerte. L'objet résultant peut être utilisé comme une grenade et inflige les dégâts d'une flasque d'huile. On peut également se servir de ce sang pour rendre une arme enflammée. Par exemple, une épée trempée dans ce liquide devient l'équivalent d'une _lame de feu_ pendant 3-6 rounds, mais la lame a 2% de chances (cumulables) de casser chaque fois qu'elle porte un coup durant cette période. Quand le feu s'éteint, l'épée redevient tout à fait normale.  
 Le sang de ces créatures brûle dans leur veines, et c'est lui qui génère cette aura trouble qui entoure les drakes ignés. Ce processus nécessite un apport permanent d'oxygène, et c'est pour cette raison que le monstre ne cesse jamais de battre des ailes. S'il devait manquer d'air, il mourrait asphyxié à peu près 2 fois plus vite qu'une créature de taille similaire.
-
-![ Dragonet, drake igné ]( {{ "dragonet-drake-igne.jpg" | absolute_url }} "Dragonet, drake igné" )

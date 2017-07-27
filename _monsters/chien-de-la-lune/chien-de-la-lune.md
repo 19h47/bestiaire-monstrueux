@@ -3,6 +3,7 @@
 layout: monster
 title:  "Chien de la lune"
 monsters: [ Chien de la lune ]
+image: "chien-de-la-lune.jpg"
 
 ---
 
@@ -39,5 +40,3 @@ Ces créatures ne peuvent être touchées que par des armes magiques dont le bon
 Les chiens de la lune s'entendent bien avec les races d'alignement bon et neutre. Ils ne s'accocient jamais longtemps avec une autre créature car leur incessante quête de l'ennemi les force à toujours poursuivre leur route.
 
 <span class="heading">Écologie :</span> mes chiens de la lune communiquent souvent télépathiquement avec les hommes pour déterminer qui sont les fauteurs de trouble de telle ou telle communauté.
-
-![Chien de la lune]( {{ "chien-de-la-lune.jpg" | absolute_url }} "Chien de la lune")

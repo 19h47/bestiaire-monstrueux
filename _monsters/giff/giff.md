@@ -3,6 +3,7 @@
 layout: monster
 title:  "Giff"
 monsters: [ 'Giff' ]
+image: "giff.jpg"
 
 ---
 
@@ -22,5 +23,3 @@ Ces mercenaires se font souvent payer en poudre à fusil, bien qu'ils acceptent 
 Malgré leur apparence quelque peu ridicule et leur lubie pour des armes, ce sont de redoutables adversaires. Ils refusent toutefois de combattre leurs congénères. S'ils se retrouvent dans une telle situation sur le champ de bataille, les deux groupes se retirent pendant un ou plusieurs jours pour échanger quelques verres et voir lequel peut s'enorgueillir d'avoir l'individu le plus gradé. Il y a ainsi 10 % de chances que l'un des groupes passe dans l'autre camp, mais dans la majorité des cas, les deux contingents donnent leur démission et vont chercher du travail ailleurs.
 
 <span class="heading">Écologie :</span> ces créatures ont une espérance de vie d'environ 70 ans, mais le passage des ans n'est pas tendre avec elles. Au fur et à mesure qu'elles vieillissent et voient leurs réflexes diminuer, elles sont prises du désir de montrer qu'elles sont encore jeunes, le plus souvent au combat. Ce qui explique que très peu d'entre elles meurent de mort naturelle.
-
-![ Giff ]( {{ "giff.jpg" | absolute_url }} "Giff" )

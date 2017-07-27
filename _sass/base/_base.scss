@@ -3,13 +3,17 @@
  */
 
 html {
-    background: 
-        linear-gradient( 
-            rgba( the_color( red, strong ), .15 ), 
-            rgba( the_color( red, strong ), .15 ) 1px, 
-            transparent 1px
-        );
-    background-size: 1px ( $base-line-height * 1px );
+
+    &.has-baseline {
+
+        background: 
+            linear-gradient( 
+                rgba( the_color( red, strong ), .15 ), 
+                rgba( the_color( red, strong ), .15 ) 1px, 
+                transparent 1px
+            );
+        background-size: 1px ( $base-line-height * 1px );
+    }
 }
 
 body {
@@ -53,7 +57,7 @@ p {
     );
     
     font-size: 1em;
-    line-height: ( ( $base-line-height / $base-font-size ) * 1em );
+    line-height: ( ( $base-line-height / $base-font-size ) );
 }
 
 ul,

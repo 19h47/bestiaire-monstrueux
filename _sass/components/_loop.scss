@@ -1,0 +1,50 @@
+.Loop {
+	@extend %position-xs-relative, %margin-xs-bottom-0;
+	@include padding( 
+		left 0
+		bottom ( ( $base-line-height / $base-font-size ) * 1em )
+	);
+	
+	color: the_color( blue, dark-moderate-01 );
+	list-style-type: none;
+
+	&:first-child {
+		
+		&::after {
+			$height: 2px;
+
+			@extend %display-xs-block;
+			@include absolute( 
+				top calc( 100% - #{ ( 10px + $height ) } ) 
+				right 0 left 0 
+			);
+			
+			height: $height;
+			background: {
+				color: the_color( blue, dark-moderate-01 );
+			}
+			content: '';	
+		}
+	}
+
+	&-item {
+		@extend %margin-xs-0;
+
+		span {
+			@extend %display-xs-inline-block;
+			width: 50%;
+
+			&:nth-child( 1 ) {
+				@extend %valign-top;
+				@include padding( right ( ( ( $base-line-height / 2 ) / $base-font-size ) * 1em ) );
+				font-variant: small-caps;
+			}
+			
+			&:nth-child( 2 ) {
+				@extend %valign-bottom;
+				@include padding( left ( ( ( $base-line-height / 2 ) / $base-font-size ) * 1em ) );
+			}
+		}
+
+	}
+}
