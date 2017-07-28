@@ -1,5 +1,5 @@
 {
-	"chien-de-la-lune":{
+	"chien-de-la-lune": {
 		"details":{
 			"Climat/Terrain": "Les Élysées et le Plan Primaire",
 			"Fréquence": "Rare",
@@ -10,7 +10,7 @@
 			"Trésor": "Aucun",
 			"Alignement": "Neutre"
 		},
-		"characteristics":{
+		"characteristics": {
 			"Nombre apparaissant": "1 ou 2-8 (voir ci-dessous)",
 			"Classe d'armure": "0",
 			"Déplacement": "30, 9 sous sa forme bipède",
@@ -27,7 +27,7 @@
 		}
 	},
 
-	"dragonet-drake-igne":{
+	"dragonet-drake-igne": {
 		"details":{
 		  	"Climat/Terrain": "Collines ou montagnes tempérées",
 		  	"fréquence": "Rare",
@@ -82,7 +82,6 @@
 			"Points d'expérience": "420"
 		}
 	},
-
 	
 	"chien-sauvage": {
 		"details": {
@@ -193,6 +192,90 @@
 			"Taille": "M (1,80 de long)",
 			"Moral": "Stable (11-12)",
 			"Points d'expérience": "120"
+		}
+	},
+
+	"chasseur-invisible": {
+		"details": {
+			"Climat/Terrain": "Tous",
+			"Fréquence": "Très rare",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Spécial",
+			"Intelligence": "Supérieure (13-14)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1",
+			"Classe d'armure": "3",
+			"Déplacement": "12, vl 12 (A)",
+			"Dés de vie": "8", 
+			"TAC0": "13",
+			"Nombre d'attaques": "1",
+			"Dégâts par attaque": "4-16",
+			"Attaques spéciales": "Surprise",
+			"Défenses spéciales": "Invisibilité",
+			"Résitance à la magie": "30%",  
+			"Taille": "G (2,40 m de haut)",
+			"Moral": "Élite (13-14)",
+			"Points d'expérience": "3.000"
+		}
+	},
+
+	"chevalier-de-la-mort": {
+		"details": {
+			"Climat/Terrain": "Tous",
+			"Fréquence": "Très rare",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Aucun",
+			"Intelligence": "Géniale (17-18)",
+			"Trésor": "Aucun",
+			"Alignement": "Chaotique mauvais"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1",
+			"Classe d'armure": "0",
+			"Déplacement": "12",
+			"Dés de vie": "0 (dés à 10 faces)", 
+			"TAC0": "11",
+			"Nombre d'attaques": "1, ç +3 pour toucher",
+			"Dégâts par attaque": "Selon l'arme employée",
+			"Attaques spéciales": "Voir ci-dessous",
+			"Défenses spéciales": "Voir ci-dessous",
+			"Résitance à la magie": "75% (voir ci-dessous)",  
+			"Taille": "M (1,80 m à 2,10 m)",
+			"Moral": "Fanatique (17)",
+			"Points d'expérience": "6.000"
+		}
+	},
+
+	"catoblepas": {
+		"details": {
+			"Climat/Terrain": "Marécage",
+			"Fréquence": "Très rare",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Dirune",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "Partielle (2-4)",
+			"Trésor": "(C)",
+			"Alignement": "Neutre"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1-2",
+			"Classe d'armure": "7",
+			"Déplacement": "6",
+			"Dés de vie": "6+2", 
+			"TAC0": "15",
+			"Nombre d'attaques": "1",
+			"Dégâts par attaque": "1-6 + étourdissement",
+			"Attaques spéciales": "Regard mortel",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "G (1,80 m au garrot)",
+			"Moral": "Stable (11-12)",
+			"Points d'expérience": "975"
 		}
 	}
 }

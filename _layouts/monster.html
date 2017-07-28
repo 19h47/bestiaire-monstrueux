@@ -22,7 +22,7 @@ layout: page
 		<div class="Monster-description__inner">
 			{% for monster in page.monsters %}
 				
-				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' %}
+				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | replace: ',', '' %}
 				{% assign details = site.data.monsters[slug].details %}
 				{% assign characteristics = site.data.monsters[slug].characteristics %}
 
@@ -34,7 +34,7 @@ layout: page
 		
 		
 	 --><div class="Monster-description__inner">
-			<img class="Monster-image" src="{{ page.image | absolute_url }}" alt="{{ page.title }}">
+			<img class="Monster-image" src="{{ page.image.src | absolute_url }}" alt="{{ page.title }}" style="{{ page.image.style }}">
 		</div>
 	
 		

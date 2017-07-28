@@ -126,6 +126,8 @@
 			&:first-child {
 				@include margin( top 0 );
 			}
+
+			br + * { text-indent: 1em }
 		}
 
 		img {
