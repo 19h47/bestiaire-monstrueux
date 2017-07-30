@@ -39,7 +39,7 @@ $display-values: 'none' 'block' 'inline-block' 'table';
  * @param 	List 			$float-values
  * @author 	Levron Jérémy 	jeremy@troa.fr
  */
-$import-utilities-float: false;
+$import-utilities-float: true;
 $float-values: 'left' 'right';
 
 

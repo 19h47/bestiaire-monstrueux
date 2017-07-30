@@ -9,21 +9,33 @@ layout: default
     </h1>
   
     {{ content }}
-
-    <ul class="Monsters-list">
-        
-        {% for monster in site.monsters %}
-        
-        <li>
-            <h2>
-                <a class="Monsters-link" href="{{ monster.url | relative_url }}">
-                    {{ monster.title | escape }}
-                </a>
-            </h2>
-        </li>
-
-        {% endfor %}
     
-    </ul>
+    <div class="row">
+        <ul class="col-xs-12 Monsters-list">
+            
+            {% for monster in site.monsters %}
+            
+                <li class="Monsters-list__item">
+                    <h2 class="Monsters-list__title">
+                            {{ monster.title | escape }}
+                    </h2>
+                    <a class="Monsters-list__link" href="{{ monster.url | relative_url }}">
+                        Link
+                    </a>
+                </li>
+
+            {% endfor %}
+
+            <li class="Monsters-list__item">
+                <h2 class="Monsters-list__title">
+                        Comment utiliser cet ouvrage
+                </h2>
+                <a class="Monsters-list__link" href="{{ "/comment-utiliser-cet-ouvrage" | relative_url }}">
+                    Link
+                </a>
+            </li>
+        
+        </ul>
+    </div>
 
 </div>

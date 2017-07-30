@@ -1,0 +1,28 @@
+.Monsters-list {
+	
+	&__item {
+		@extend %margin-xs-0;
+
+		overflow-x: hidden;
+		width: 100%;
+
+		&::before {
+			@extend %float-left;
+
+		    width: 0;
+		    white-space: nowrap;
+		    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+		}
+	}
+	&__title {
+		@extend %display-xs-inline-block, %margin-xs-0, %valign-middle;
+		@include padding( right 1em );
+
+		background: {
+			color: the_color( white );
+		}
+	}
+	&__link {
+		@extend %display-xs-inline-block, %float-right, %valign-middle;
+	}
+}
