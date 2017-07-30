@@ -2,7 +2,7 @@
 
 layout: monster
 title:  "Chien de la lune"
-monsters: [ Chien de la lune ]
+monsters: [ "Chien de la lune" ]
 image: 
   src: chien-de-la-lune.jpg
 

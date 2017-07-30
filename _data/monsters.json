@@ -277,5 +277,33 @@
 			"Moral": "Stable (11-12)",
 			"Points d'expérience": "975"
 		}
+	},
+
+	"bete-eclipsante": {
+		"details": {
+			"Climat/Terrain": "Montagnes tempérées",
+			"Fréquence": "Très rare",
+			"Organisation": "Meute",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "Partielle (2-4)",
+			"Trésor": "(D)",
+			"Alignement": "Loyal mauvais"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "2-5",
+			"Classe d'armure": "4",
+			"Déplacement": "15",
+			"Dés de vie": "6", 
+			"TAC0": "15",
+			"Nombre d'attaques": "2",
+			"Dégâts par attaque": "2-8/2-8",
+			"Attaques spéciales": "Aucune",
+			"Défenses spéciales": "-2 au jet d'attaque des adversaires",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "G (2,40 à 3,60 m de long)",
+			"Moral": "Élite (13-14)",
+			"Points d'expérience": "975"
+		}
 	}
 }

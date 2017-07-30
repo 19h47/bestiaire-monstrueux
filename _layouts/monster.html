@@ -4,7 +4,7 @@ layout: page
 
 ---
 
-<article class="Site-container Monster {{ page.title | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | prepend: 'Monster--' }}">
+<article class="Site-container Monster {{ page.title | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | replace: 'ê', 'e' | prepend: 'Monster--' }}">
 
 	<header class="Monster-header">
 		<h1 class="Monster-title">
@@ -22,7 +22,7 @@ layout: page
 		<div class="Monster-description__inner">
 			{% for monster in page.monsters %}
 				
-				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | replace: ',', '' %}
+				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: ',', '' %}
 				{% assign details = site.data.monsters[slug].details %}
 				{% assign characteristics = site.data.monsters[slug].characteristics %}
 
