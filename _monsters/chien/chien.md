@@ -2,7 +2,7 @@
 
 layout: monster
 title:  "Chien"
-monsters: [ Chien sauvage, Chien de guerre, Chien esquiveur, Chien infernal ]
+monsters: [ "Chien sauvage", "Chien de guerre", "Chien esquiveur", "Chien infernal" ]
 image: "chien.jpg"
   
 ---

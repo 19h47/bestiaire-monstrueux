@@ -17,7 +17,9 @@ layout: default
             
                 <li class="Monsters-list__item">
                     <h2 class="Monsters-list__title">
+                        <a href="{{ monster.url | relative_url }}">
                             {{ monster.title | escape }}
+                        </a>
                     </h2>
                     <a class="Monsters-list__link" href="{{ monster.url | relative_url }}">
                         Link

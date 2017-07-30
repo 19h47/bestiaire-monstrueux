@@ -2,7 +2,7 @@
 
 layout: monster
 title:  "Chasseur invisible"
-monsters: [ 'Chasseur invisible' ]
+monsters: [ "Chasseur invisible" ]
 image: 
   src: chasseur-invisible.jpg
 

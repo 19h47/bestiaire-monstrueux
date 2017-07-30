@@ -2,7 +2,7 @@
 
 layout: monster
 title:  Dragonet, drake igné
-monsters: [ 'Dragonet, drake igné' ]
+monsters: [ "Dragonet, drake igné" ]
 image: 
   src: dragonet-drake-igne.jpg
 

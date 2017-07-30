@@ -25,3 +25,29 @@ Certains des monstres de cet ouvrage ont été "importés" d mondes particuliers
 Chaque monstre est décrit en détail et ses caractéristiques principales sont présentées sous la forme d'une liste de termes et de chiffres définis ci-dessous.
 
 <span class="heading">CLIMAT/TERRAIN</span> détermine le lieu où la créature réside habituellement. Le climat peut être arctique, subarctique, tempéré, subtropical ou tropical. Quant au terrain, il peut s'agir des plaines, des bois, des montagnes, des marais ou encore du désert. Il arrive parfois qu'une indication plus vague soit fournie ; par exemple les "régions froides" incluent les contrées des zones arctique et subarctique, ainsi que celles situées au nord de la zone tempérée (ou au sud, selon l'hémisphère dans lequel on se trouve).
+
+<span class="heading">FRÉQUENCE</span> indique les chances que l'on a de rencontrer le monstre dans la région où il vit. Elle peut être modifiée dans certains cas bien précis.
+
+| Très rare | = 4 % de chances  | Peu commun | = 20 % de chances |
+| Rare      | = 11 % de chances | Commun     | = 65 % ce chances |
+{: style="width: 100%; table-layout: fixed;"}
+
+<span class="heading">ORGANISATION</span> décrit la structure sociale propre au monstre, "Solitaire" peut comprendre une cellule familiale de taille réduite.
+
+<span class="heading">CYCLE D'ACTIVITÉ</span> précise à quel moment de la journée la créature est la plus active. Les monstres vivant de nuit peuvent être éveillés à n'importe quel moment lorsqu'ils sont sous terre. Il ne s'agit là que d'indications générales et les exceptions sont assez fréquentes.
+
+<span class="heading">RÉGIME ALIMENTAIRE</span> indique comment le monstre se nourrit. Les carnivores mangent de la viande, les herbivores des végétaux et les omnivores de tout. Pour leur part, les charognards se nourrissent principalement de cadavres. Lorsque la créature n'entre dans aucune de ces quatre catégories, son mode d'alimentation est alors décrit à cette ligne ou détaillé dans le texte qui suit.
+
+<span class="heading">INTELLIGENCE</span> est l'équivalent de notre QI. Certains monstres sont très rusés, bie nque peu intelligents, mais cela est expliqué dans leur description. Les termes utilisés correspondent plus ou moins au score d'Intelligence suivant :
+
+| 0     | Aucune (ou impossible à évaluer) | 13-14 | Supérieure     |
+| 1     | Animale                          | 15-16 | Exceptionnelle |
+| 2-4   | Partielle                        | 17-18 | Géniale        |
+| 5-7   | Faible						   | 19-20 | Supra-géniale  |
+| 8-10  | Moyenne (humaine)                | 21+   | Divine         |
+| 11-12 | Haute                            |       |                |
+{: style="width: 100%; table-layout: fixed;"}
+
+<span class="heading">Trésor</span> fait référence aux tables de trésor présentées das le _GUIDE DU MAÎTRE_. Quand il s'agit de trésors dits individuels, chaque monstre peut les avoir sur lui (ou non, au gré du MD). Mais les plus importants se trouvent fréquemment dans l'antre de la créature, et le MD a tout intérêt à les définir à l'avance. Les monstres intelligents utilisent les objets magiques qu'ils possèdent et tentent e s'enfuir avec leurs objets de valeur lorsqu'ils se sentent en danger. Si vous choississez de déterminer le trésor de manière aléatoire, effectuez tous les jets de dés indiqués par les divers "types" de trésor (si tous ratent, le repaire est vide). N'hésitez pas à réduire les quantités si les monstres sont peu nombreux. Lorsqu'un type de trésor est particulièrement représenté, un multiplicateur vous l'indique (par exemple : x10). Cela n'a rien à voir avec un trésor de type X. Les lettres données entre parenthèses indiquent le trésor qu'il est possible de trouver dans l'antre de la créature. Ne faites pas appel aux tables pour déterminer les possessions d'un groupe de monstres présents dans un complexe souterrain, car les créatures seront dans ce cas précis bien moins nombreuses que dans un de leurs repaires.
+
+<span class="heading">ALIGNEMENT</span> indique comment se comportent les monstres de cette race. Des exceptions existent toutefois, bien qu'elles ne constituent pas la règle.

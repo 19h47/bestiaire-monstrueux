@@ -2,7 +2,7 @@
 
 layout: monster
 title:  "Giff"
-monsters: [ 'Giff' ]
+monsters: [ "Giff" ]
 image: 
   src: giff.jpg
 

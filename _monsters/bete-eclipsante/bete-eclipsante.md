@@ -6,7 +6,7 @@ monsters: [ "Bête éclipsante" ]
 image: 
   src: bete-eclipsante.png
   style: |
-    margin-left: -85px;
+    margin-left: -53px; width: calc( 100% + 53px );
 
 ---
 
