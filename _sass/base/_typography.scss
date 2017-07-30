@@ -38,7 +38,7 @@ body {
  */
 $titles: (
     h1: (
-        88, 
+        84, 
         $base-line-height * 3,
         map-get( $font-weight, bold ), 
         map-get( $font, title-family ),
@@ -47,7 +47,7 @@ $titles: (
 
     h2: (
         20,
-        40,
+        $base-line-height,
         map-get( $font-weight, bold ),
         map-get( $font, title-family ),
         0    
@@ -55,7 +55,7 @@ $titles: (
 
     h3: (
         16,
-        30,
+        $base-line-height,
         map-get( $font-weight, bold ),
         map-get( $font, title-family ),
         0    
@@ -63,7 +63,7 @@ $titles: (
 
     h4: (
         16,
-        22,
+        $base-line-height,
         map-get( $font-weight, regular ),
         map-get( $font, title-family ),
         0    
@@ -71,7 +71,7 @@ $titles: (
 
     h5: (
         14,
-        20,
+        $base-line-height,
         map-get( $font-weight, regular ),
         map-get( $font, title-family ),
         0 

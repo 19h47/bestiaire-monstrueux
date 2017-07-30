@@ -36,8 +36,8 @@
 		@extend %position-xs-relative;
 		@include pseudo-element-after( 8 );
 
-		@include padding( bottom 
-			( ( $base-line-height / $base-font-size ) * 1em )
+		@include padding( 
+			bottom ( ( $base-line-height / $base-font-size ) * 1em )
 		);
 
 	}
@@ -54,7 +54,7 @@
 		height: ( ( ( $base-line-height * 2 ) / $base-font-size ) * 1em );
 		
 		@include pseudo-element-after( 
-			24, 
+			22, 
 			the_color( blue, dark-moderate-02 ) 
 		);
 	}
