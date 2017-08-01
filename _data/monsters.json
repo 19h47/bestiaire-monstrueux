@@ -12,11 +12,11 @@
 		},
 		"characteristics": {
 			"Nombre apparaissant": "1 ou 2-8 (voir ci-dessous)",
-			"Classe d'armure": "0",
+			"Classe d'armure": 0,
 			"Déplacement": "30, 9 sous sa forme bipède",
 			"Dés de vie": "9+3",
-			"TAC0": "11",
-			"Nombre d'attaques": "1",
+			"TAC0": 11,
+			"Nombre d'attaques": 1,
 			"Dégâts par attaque": "3-12",
 			"Attaques spéciales": "Hurlement",
 			"Défenses spéciales": "Motif d'ombres hypnotiques, uniquement touché par les armes au moins +2",
@@ -40,18 +40,18 @@
 		},
 		"characteristics":{
 		 	"Nombre apparaissant": "2-8",  
-		 	"Classe d'armure": "5",  
+		 	"Classe d'armure": 5,  
 		 	"Déplacement": "6, vl 18 (C)",  
-		 	"Dés de vie": "4",  
-		 	"TAC0": "17",  
-		 	"Nombre d'attaques": "1",  
+		 	"Dés de vie": 4,  
+		 	"TAC0": 17,  
+		 	"Nombre d'attaques": 1,  
 		 	"Dégâts par attaque": "2-8",  
 		 	"Attaques spéciales": "Souffle et sorts",  
 		 	"Défenses spéciales": "Aucune",  
 		 	"Résitance à la magie": "Aucune",  
 		 	"Taille": "P (1,20 de long)",  
 		 	"Moral": "Moyen (9)",  
-		 	"Points d'expérience": "420"
+		 	"Points d'expérience": 420
 		}
 	},
 
@@ -69,9 +69,9 @@
 		"characteristics":{
 			"Nombre apparaissant": "11-20",
 			"Classe d'armure": "6 (2)  ",
-			"Déplacement": "6",
-			"Dés de vie": "4",
-			"TAC0": "17",
+			"Déplacement": 6,
+			"Dés de vie": 4,
+			"TAC0": 17,
 			"Nombre d'attaques": "2 ou 1",
 			"Dégâts par attaque": "1-6+7 ou selon l'arme employée +7",
 			"Attaques spéciales": "Coup de tête",
@@ -79,7 +79,7 @@
 			"Résitance à la magie": "10 %",
 			"Taille": "G (2,70 m de haut)",
 			"Moral": "Élite (14)",
-			"Points d'expérience": "420"
+			"Points d'expérience": 420
 		}
 	},
 	
@@ -96,18 +96,18 @@
 		},
 		"characteristics":{
 			"Nombre apparaissant": "4-16",
-			"Classe d'armure": "7",
-			"Déplacement": "15",
+			"Classe d'armure": 7,
+			"Déplacement": 15,
 			"Dés de vie": "1+1",
-			"TAC0": "19",
-			"Nombre d'attaques": "1",
+			"TAC0": 19,
+			"Nombre d'attaques": 1,
 			"Dégâts par attaque": "1-4",
 			"Attaques spéciales": "Aucune",
 			"Défenses spéciales": "Aucune",
 			"Résitance à la magie": "Aucune",
 			"Taille": "P (90 cm de long)",
 			"Moral": "Agité (5-7)",
-			"Points d'expérience": "35"
+			"Points d'expérience": 35
 		}
 	},
 
@@ -124,18 +124,18 @@
 		},
 		"characteristics": {
 			"Nombre apparaissant": "Variable",
-			"Classe d'armure": "6",
-			"Déplacement": "12",
+			"Classe d'armure": 6,
+			"Déplacement": 12,
 			"Dés de vie": "2+2",
-			"TAC0": "19",
-			"Nombre d'attaques": "1",
+			"TAC0": 19,
+			"Nombre d'attaques": 1,
 			"Dégâts par attaque": "2-8",
 			"Attaques spéciales": "Aucune",
 			"Défenses spéciales": "Aucune",
 			"Résitance à la magie": "Aucune",
 			"Taille": "M (1,20 à 1,80 de long)",
 			"Moral": "Moyen (8-10)",
-			"Points d'expérience": "65"
+			"Points d'expérience": 65
 		}
 	},
 
@@ -152,18 +152,18 @@
 		},
 		"characteristics": {
 			"Nombre apparaissant": "4-16",
-			"Classe d'armure": "5",
-			"Déplacement": "12",
-			"Dés de vie": "4",
-			"TAC0": "17",
-			"Nombre d'attaques": "1",
+			"Classe d'armure": 5,
+			"Déplacement": 12,
+			"Dés de vie": 4,
+			"TAC0": 17,
+			"Nombre d'attaques": 1,
 			"Dégâts par attaque": "1-6",
 			"Attaques spéciales": "Attaque par-derrière dans 75% des cas",
 			"Défenses spéciales": "Téléportation",
 			"Résitance à la magie": "Aucune",  
 			"Taille": "M (1,20 de long)",
 			"Moral": "Stable (11-12)",
-			"Points d'expérience": "270"
+			"Points d'expérience": 270
 		}
 	},
 
@@ -180,18 +180,18 @@
 		},
 		"characteristics": {
 			"Nombre apparaissant": "5-50",
-			"Classe d'armure": "7",
-			"Déplacement": "12",
+			"Classe d'armure": 7,
+			"Déplacement": 12,
 			"Dés de vie": "2+", 
-			"TAC0": "19",
-			"Nombre d'attaques": "12",
+			"TAC0": 19,
+			"Nombre d'attaques": 12,
 			"Dégâts par attaque": "1-10/1-10",
 			"Attaques spéciales": "Maladie",
 			"Défenses spéciales": "Aucune",
 			"Résitance à la magie": "Aucune",  
 			"Taille": "M (1,80 de long)",
 			"Moral": "Stable (11-12)",
-			"Points d'expérience": "120"
+			"Points d'expérience": 120
 		}
 	},
 
@@ -207,12 +207,12 @@
 			"Alignement": "Neutre"
 		},
 		"characteristics": {
-			"Nombre apparaissant": "1",
-			"Classe d'armure": "3",
+			"Nombre apparaissant": 1,
+			"Classe d'armure": 3,
 			"Déplacement": "12, vl 12 (A)",
-			"Dés de vie": "8", 
-			"TAC0": "13",
-			"Nombre d'attaques": "1",
+			"Dés de vie": 8, 
+			"TAC0": 13,
+			"Nombre d'attaques": 1,
 			"Dégâts par attaque": "4-16",
 			"Attaques spéciales": "Surprise",
 			"Défenses spéciales": "Invisibilité",
@@ -235,11 +235,11 @@
 			"Alignement": "Chaotique mauvais"
 		},
 		"characteristics": {
-			"Nombre apparaissant": "1",
-			"Classe d'armure": "0",
-			"Déplacement": "12",
+			"Nombre apparaissant": 1,
+			"Classe d'armure": 0,
+			"Déplacement": 12,
 			"Dés de vie": "0 (dés à 10 faces)", 
-			"TAC0": "11",
+			"TAC0": 11,
 			"Nombre d'attaques": "1, ç +3 pour toucher",
 			"Dégâts par attaque": "Selon l'arme employée",
 			"Attaques spéciales": "Voir ci-dessous",
@@ -256,7 +256,7 @@
 			"Climat/Terrain": "Marécage",
 			"Fréquence": "Très rare",
 			"Organisation": "Solitaire",
-			"Cycle d'activité": "Dirune",
+			"Cycle d'activité": "Diurne",
 			"Régime alimentaire": "Omnivore",
 			"Intelligence": "Partielle (2-4)",
 			"Trésor": "(C)",
@@ -264,18 +264,18 @@
 		},
 		"characteristics": {
 			"Nombre apparaissant": "1-2",
-			"Classe d'armure": "7",
-			"Déplacement": "6",
+			"Classe d'armure": 7,
+			"Déplacement": 6,
 			"Dés de vie": "6+2", 
-			"TAC0": "15",
-			"Nombre d'attaques": "1",
+			"TAC0": 15,
+			"Nombre d'attaques": 1,
 			"Dégâts par attaque": "1-6 + étourdissement",
 			"Attaques spéciales": "Regard mortel",
 			"Défenses spéciales": "Aucune",
 			"Résitance à la magie": "Aucune",  
 			"Taille": "G (1,80 m au garrot)",
 			"Moral": "Stable (11-12)",
-			"Points d'expérience": "975"
+			"Points d'expérience": 975
 		}
 	},
 
@@ -292,18 +292,130 @@
 		},
 		"characteristics": {
 			"Nombre apparaissant": "2-5",
-			"Classe d'armure": "4",
-			"Déplacement": "15",
-			"Dés de vie": "6", 
-			"TAC0": "15",
-			"Nombre d'attaques": "2",
+			"Classe d'armure": 4,
+			"Déplacement": 15,
+			"Dés de vie": 6, 
+			"TAC0": 15,
+			"Nombre d'attaques": 2,
 			"Dégâts par attaque": "2-8/2-8",
 			"Attaques spéciales": "Aucune",
 			"Défenses spéciales": "-2 au jet d'attaque des adversaires",
 			"Résitance à la magie": "Aucune",  
 			"Taille": "G (2,40 à 3,60 m de long)",
 			"Moral": "Élite (13-14)",
-			"Points d'expérience": "975"
+			"Points d'expérience": 975
+		}
+	},
+
+	"aarakocra": {
+		"details": {
+			"Climat/Terrain": "Montagnes tropicales ou tempérées",
+			"Fréquence": "Très rare",
+			"Organisation": "Tribale",
+			"Cycle d'activité": "Diurne",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "Moyenne (8-10)",
+			"Trésor": "D",
+			"Alignement": "Neutre bon"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1-10",
+			"Classe d'armure": 7,
+			"Déplacement": "6, vl 36 (C)",
+			"Dés de vie": "1+2", 
+			"TAC0": 19,
+			"Nombre d'attaques": 2,
+			"Dégâts par attaque": "1-3/1-3 ou 2-8 (arme)",
+			"Attaques spéciales": "Piqué (+4 pour toucher)",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "M (6 m d'envergure)",
+			"Moral": "Stable (11)",
+			"Points d'expérience": 65
+		}
+	},
+
+	"papillon": {
+		"details": {
+			"Climat/Terrain": "Tous, Demi-Plan de l'Ombre",
+			"Fréquence": "Rare",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Nocturne/Obscurité",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "Animale (1)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
+		},
+		"characteristics": {
+			"Nombre apparaissant": 1,
+			"Classe d'armure": 1,
+			"Déplacement": "2, vl 18 (D)",
+			"Dés de vie": "5+1", 
+			"TAC0": 15,
+			"Nombre d'attaques": 3,
+			"Dégâts par attaque": "1-3/1-3/1-8",
+			"Attaques spéciales": "Phéromones",
+			"Défenses spéciales": "Confusion",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "M (2,40 m d'envergure)",
+			"Moral": "Moyen (8-10)",
+			"Points d'expérience": "1.400"
+		}
+	},
+
+	"ver-tenebreux": {
+		"details": {
+			"Climat/Terrain": "Forêt",
+			"Fréquence": "Peu fréquent",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "Animale (1)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
+		},
+		"characteristics": {
+			"Nombre apparaissant": 1,
+			"Classe d'armure": 1,
+			"Déplacement": 10,
+			"Dés de vie": 10, 
+			"TAC0": 11,
+			"Nombre d'attaques": 1,
+			"Dégâts par attaque": "2-16",
+			"Attaques spéciales": "Salive acide",
+			"Défenses spéciales": "Poils venimeux",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "M (1,80 m de long)",
+			"Moral": "Élite (13)",
+			"Points d'expérience": "5000"
+		}
+	},
+
+	"aboleth": {
+		"details": {
+			"Climat/Terrain": "Tropical ou tempéré/Souterrains",
+			"Fréquence": "Très rare",
+			"Organisation": "Nichée",
+			"Cycle d'activité": "Nocturne",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "Supérieure (13-14)",
+			"Trésor": "F",
+			"Alignement": "Loyal mauvais"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1-4",
+			"Classe d'armure": 4,
+			"Déplacement": "3, ng 18",
+			"Dés de vie": 8, 
+			"TAC0": 13,
+			"Nombre d'attaques": 4,
+			"Dégâts par attaque": "1-6 (x4)",
+			"Attaques spéciales": "Voir ci-dessous",
+			"Défenses spéciales": "Bave",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "E (6 m de long)",
+			"Moral": "Élite (13)",
+			"Points d'expérience": "5.000"
 		}
 	}
 }

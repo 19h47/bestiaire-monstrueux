@@ -119,9 +119,9 @@
 		
 		p {
 			color: the_color( black );
-			text: {
-				indent: 1em;
-			}
+			// text: {
+			// 	indent: 1em;
+			// }
 
 			&:first-child {
 				@include margin( top 0 );

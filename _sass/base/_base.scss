@@ -20,14 +20,6 @@ body {
 
     line-height: ( $base-line-height / $base-font-size );
     transition: opacity .3s ease;
-
-    @at-root .js &.is-loaded {
-        opacity: 0;
-    }
-
-    @at-root .js &.is-left {
-        opacity: 0;
-    }
 }
 
 a, 

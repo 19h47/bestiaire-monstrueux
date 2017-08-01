@@ -34,7 +34,14 @@ layout: page
 		
 		
 	 --><div class="Monster-description__inner">
-			<img class="Monster-image" src="{{ page.image.src | absolute_url }}" alt="{{ page.title }}" style="{{ page.image.style }}">
+			<img 
+				class="Monster-image" 
+				src="{{ page.image.src | absolute_url }}" 
+				alt="{{ page.title }}" 
+				style="{{ page.image.style }}"
+				width="{{ page.image.width }}"
+				height="{{ page.image.height }}"
+			>
 		</div>
 	
 		
