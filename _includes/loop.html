@@ -1,9 +1,28 @@
 <ul class="Loop">
 {% for data in include.datas %}
-	
-	<li class="Loop-item">
-		<span class="">{{data[0] }}&nbsp:</span><span class="">{{data[1] }}</span>
-	</li>
 
+	
+	{% if data[1].first %}
+
+		<li class="Loop-item">
+			<span class="">{{ data[0] }}&nbsp:</span><span class="">{{ data[1] }}</span>
+		</li>
+		
+		{% for subdata in data[1] %}
+			{{ subdata[1] }}
+
+			<li class="Loop-item">
+				<span class="">{{ subdata[0] }}&nbsp:</span><span class="">{{ subdata[1] }}</span>
+			</li>
+
+		{% endfor %}
+		
+	{% else %}
+
+		<li class="Loop-item">
+			<span class="">{{ data[0] }}&nbsp:</span><span class="">{{ data[1] }}</span>
+		</li>
+
+	{% endif %}
 {% endfor %}
 </ul>

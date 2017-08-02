@@ -417,5 +417,63 @@
 			"Moral": "Élite (13)",
 			"Points d'expérience": "5.000"
 		}
+	},
+
+	"cheval-marin": {
+		"details": {
+			"Climat/Terrain": "Eau (douce ou salée) profonde",
+			"Fréquence": "Rare",
+			"Organisation": "Troupeau",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Herbivore",
+			"Intelligence": "Moyenne (8-10)",
+			"Trésor": "Aucun",
+			"Alignement": "Chaotique bon"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "2-8",
+			"Classe d'armure": 5,
+			"Déplacement": "Ng 24",
+			"Dés de vie": 4, 
+			"TAC0": 17,
+			"Nombre d'attaques": 1,
+			"Dégâts par attaque": "1-4",
+			"Attaques spéciales": "Aucune",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "E (5,40 m de long)",
+			"Moral": "Stable (11-12)",
+			"Points d'expérience": "120"
+		}
+	},
+
+	"centaure": {
+		"details": {
+			"Climat/Terrain": "Forêt tempérées",
+			"Fréquence": "Rare",
+			"Organisation": "Tribale",
+			"Cycle d'activité": "Diurne",
+			"Régime alimentaire": "Omnivore",
+			"Intelligence": "De basse à moyenne (5-10-",
+			"Trésor": "M, Q (D, I, T)",
+			"Alignement": "Neutre ou chaotique bon"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1-8",
+			"Classe d'armure": "5 (4)",
+			"Déplacement": 18,
+			"Dés de vie": 4, 
+			"TAC0": 17,
+			"Nombre d'attaques": 3,
+			"Dégâts par attaque": "1-6/1-6/selon l'arme employée",
+			"Attaques spéciales": "Aucune",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "G (2,40 m à 2,70 m de haut)",
+			"Moral": "Élite (13-14)",
+			"Points d'expérience": 175,
+			"Chef": 270,
+			"Prêtre": 420
+		}
 	}
 }
