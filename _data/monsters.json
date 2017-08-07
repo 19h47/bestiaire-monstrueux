@@ -454,7 +454,7 @@
 			"Organisation": "Tribale",
 			"Cycle d'activité": "Diurne",
 			"Régime alimentaire": "Omnivore",
-			"Intelligence": "De basse à moyenne (5-10-",
+			"Intelligence": "De basse à moyenne (5-10)",
 			"Trésor": "M, Q (D, I, T)",
 			"Alignement": "Neutre ou chaotique bon"
 		},
@@ -474,6 +474,63 @@
 			"Points d'expérience": 175,
 			"Chef": 270,
 			"Prêtre": 420
+		}
+	},
+
+	"bulette": {
+		"details": {
+			"Climat/Terrain": "Tempéré/Partout",
+			"Fréquence": "Très rare",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Tous",
+			"Régime alimentaire": "Carnivore",
+			"Intelligence": "Animale (1)",
+			"Trésor": "Aucun",
+			"Alignement": "Neutre"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1-2",
+			"Classe d'armure": "-2/4/6",
+			"Déplacement": "14, cr 3",
+			"Dés de vie": 9, 
+			"TAC0": 11,
+			"Nombre d'attaques": 3,
+			"Dégâts par attaque": "4-48/3-18/3-18",
+			"Attaques spéciales": "Bond vertical (2,40m)",
+			"Défenses spéciales": "Aucune",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "G (3,60 m  de long à 2,85 m au garrot)",
+			"Moral": "Stable (11)",
+			"Points d'expérience": "4.000"
+		}
+	},
+
+
+	"brume-vampirique": {
+		"details": {
+			"Climat/Terrain": "Non-arctique/Marécages et souterrains",
+			"Fréquence": "Rare",
+			"Organisation": "Solitaire",
+			"Cycle d'activité": "Nocturne",
+			"Régime alimentaire": "Sang",
+			"Intelligence": "Moyenne (8-10)",
+			"Trésor": "(D)",
+			"Alignement": "Neutre mauvais"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "1-3",
+			"Classe d'armure": "4 (8 lorsqu'elle devient solide)",
+			"Déplacement": "12 (6 lorsqu'elle devient solide)",
+			"Dés de vie": 3, 
+			"TAC0": "Voir ci-dessous",
+			"Nombre d'attaques": 1,
+			"Dégâts par attaque": "1-8",
+			"Attaques spéciales": "Voir ci-dessous",
+			"Défenses spéciales": "Voir ci-dessous",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "G (1,50 m à 2,40 m de large)",
+			"Moral": "Élite (13-14)",
+			"Points d'expérience": "270"
 		}
 	}
 }
