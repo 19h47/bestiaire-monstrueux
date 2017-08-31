@@ -532,5 +532,33 @@
 			"Moral": "Élite (13-14)",
 			"Points d'expérience": "270"
 		}
+	},
+
+	"ame-en-peine": {
+		"details": {
+			"Climat/Terrain": "Terre ferme",
+			"Fréquence": "Peu commun",
+			"Organisation": "Meute",
+			"Cycle d'activité": "Nocturne",
+			"Régime alimentaire": "Spécial",
+			"Intelligence": "Haute (11-12)",
+			"Trésor": "E",
+			"Alignement": "Loyal mauvais"
+		},
+		"characteristics": {
+			"Nombre apparaissant": "2-12",
+			"Classe d'armure": "4",
+			"Déplacement": "12, vl 24 (B)",
+			"Dés de vie": "5+3", 
+			"TAC0": 15,
+			"Nombre d'attaques": 1,
+			"Dégâts par attaque": "1-6",
+			"Attaques spéciales": "Absoprtion d'énergie",
+			"Défenses spéciales": "Uniquement touchée par les armes en argent ou au moins +1, voir ci-dessous",
+			"Résitance à la magie": "Aucune",  
+			"Taille": "M (1,80 m de haut)",
+			"Moral": "Champion (15)",
+			"Points d'expérience": "2.000"
+		}
 	}
 }

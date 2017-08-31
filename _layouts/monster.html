@@ -22,7 +22,7 @@ layout: page
 		<div class="Monster-description__inner">
 			{% for monster in page.monsters %}
 				
-				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: ',', '' %}
+				{% assign slug = monster | downcase | replace: ' ', '-' | replace: ',', '' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: ',', '' | replace: 'Â', 'a' %}
 				{% assign details = site.data.monsters[slug].details %}
 				{% assign characteristics = site.data.monsters[slug].characteristics %}
 
